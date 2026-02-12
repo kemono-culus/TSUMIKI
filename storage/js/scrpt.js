@@ -1,4 +1,4 @@
-const GAS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbyA8Zuc_VCWK4pL24SGODA2IuzT5LEqXG1ZplCUxwprSDRVuyQcdg4togunfyS_YuzG-g/exec';
+const GAS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbxPQ7bdc3yNtWJV6jGAPAAv1N0POmhUdqJpMQl1mnm5BJJvTYQPKUeORd7dlCznCLUt-g/exec';
 
 /**
  * リストの制御
@@ -185,24 +185,17 @@ function downloadItem(id, path) {
 // 素材のダウンロード数に加算
 async function sendIdToGAS(id) {
 
-  console.log("加算１");
-
   if (typeof id !== 'string' || id.trim() === '') {
     throw new Error('id must be a non-empty string');
   }
 
-  console.log("加算２");
-
   const response = await fetch(GAS_ENDPOINT, {
     method: 'POST',
     headers: {
-      'Access-Control-Allow-Origin': 'http://127.0.0.1:5500',
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/x-www-form-urlencoded'
     },
-    body: JSON.stringify({ 'id': id })
+    body: new URLSearchParams({ 'id': id })
   });
-
-  console.log("加算３");
 
   if (!response.ok) {
     throw new Error(`HTTP error: ${response.status}`);
