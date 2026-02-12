@@ -148,7 +148,7 @@ function openModal(trigger) {
     <p><span id="modalComment">${trigger.dataset.comment}</span></p>
 
     <div class="modal_btn_wrapper">
-      <button class="modal_btn download" onclick="downloadItem('${trigger.dataset.id}','/storage/images/thumbnail/test/${trigger.dataset.id}.jpg')">ダウンロード</button>
+      <button class="modal_btn download" onclick="downloadItem('${trigger.dataset.id}','./storage/images/thumbnail/test/${trigger.dataset.id}.jpg')">ダウンロード</button>
       <button class="modal_btn" onclick="closeModal()">閉じる</button>
     </div>
   `
