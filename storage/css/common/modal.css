@@ -1,0 +1,91 @@
+.hidden {
+  display: none;
+  opacity: 0;
+}
+
+#modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  transform: 0.2s;
+  opacity: 1;
+}
+
+#modalOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#modalContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 32px;
+  width: 72vw;
+  max-width: 420px;
+  border-radius: 20px;
+  box-shadow: 12px 12px 0 0 rgb(133, 92, 214);
+}
+
+.modal_img_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 4px lightgray;
+  border-radius: 16px;
+  margin: 16px 0;
+}
+
+img#modalImg {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+span#modalName {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+span#modalComment {
+  font-size: 120%;
+  color: gray;
+}
+
+.modal_btn_wrapper {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button.modal_btn {
+  background: gray;
+  padding: 8px 24px;
+  color: white;
+  font-size: 120%;
+  border: solid 4px gray;
+  margin: 4px 12px;
+  border-radius: 32px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button.modal_btn:hover {
+  background: white;
+  color: gray;
+}
+
+button.modal_btn.download {
+  background: rgb(255, 162, 0);
+  color: white;
+  border: solid 4px rgb(255, 162, 0);
+}
+
+button.modal_btn.download:hover {
+  background: white;
+  color: rgb(255, 162, 0);
+}

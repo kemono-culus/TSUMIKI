@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <!-- SEO 基本 -->
+  <title>SpriteBox | Scratch利用OKのフリーイラスト素材サイト</title>
+  <meta name="description" content="Scratchで使用しても良いイラストを配布しています。">
+  <meta name="robots" content="index, follow">
+  <!-- 表示・互換性 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- 正規URL（必要に応じて） -->
+  <link rel="canonical" href="">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./storage/css/common/modal.css">
+  <link rel="stylesheet" href="./storage/css/common/style.css">
+</head>
+<body>
+
+  <!-- 優先掲示 -->
+  <div class="info_area">
+    <p>Scratchで使用OK。素材集への使用、素材としての販売NG。</p>
+  </div>
+
+  <!-- ヘッダー -->
+  <header>
+    <div class="header_area">
+      <div class="header_left">
+        <a href="/">
+          <img src="./storage/images/common/logo_black.png" height="52">
+        </a>
+      </div>
+      <div class="header_right">
+        <nav>
+          <ul>
+            <li><a class="nav_item" href="/pages/rule" target="_self">利用規約</a></li>
+            <li><a class="nav_item" href="/pages/about" target="_self">サイトについて</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- メイン -->
+  <div class="main_area">
+    <div class="main_item_list">
+      <!-- アクセシビリティ -->
+      <div class="item_header">
+        <div class="item_summary">
+          <h2 id="current_items">All Works (<span id="items_count"></span>)</h2>
+        </div>
+        <div class="item_sort_wrapper">
+          <label class="item_sort">
+            <select id="sort_key">
+              <option value="newest">新着順</option>
+              <option value="name">名前順</option>
+              <option value="popularity">人気順</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <!-- アイテム一覧 -->
+      <div class="item_list">
+        <ul id="item_list">
+          <!-- JSONから生成 -->
+          <span style="display: flex;justify-content: center;">
+            Loading...
+          </span>
+        </ul>
+        <!-- 最下部検知用 -->
+        <div id="sentinel"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- フッター -->
+  <footer>
+      <div class="footer_top">
+        <nav>
+          <ul>
+            <li><a class="nav_item" href="/pages/rule" target="_self">利用規約</a></li>
+            <li><a class="nav_item" href="/pages/about" target="_self">サイトについて</a></li>
+          </ul>
+        </nav>
+      </div>
+    <div class="footer_bottom">
+      <a href="/">
+        <img src="./storage/images/common/logo_white.png" height="52">
+      </a>
+      <p>©けものくるす</p>
+    </div>
+  </footer>
+
+  <!-- モーダル -->
+  <div id="modal" class="hidden">
+    <!-- 背景 -->
+    <div id="modalOverlay" onclick="closeModal()"></div>
+    <!-- 本体 -->
+    <div id="modalContent"></div>
+  </div>
+
+  <!-- スクリプト -->
+  <script src="./storage/js/scrpt.js"></script>
+</body>
+</html>
