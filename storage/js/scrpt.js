@@ -1,4 +1,4 @@
-const GAS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbxPQ7bdc3yNtWJV6jGAPAAv1N0POmhUdqJpMQl1mnm5BJJvTYQPKUeORd7dlCznCLUt-g/exec';
+const GAS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbzcpOt8KXo1ntnvIbG3urc33VMylivfwX6bCNG7rB1LUaqMd_1HHvPrthGRUczPtw/exec';
 
 /**
  * リストの制御
@@ -69,11 +69,9 @@ function loadItemList() {
     if (!response.ok) {
       throw new Error('HTTP error: ' + response.status);
     }
-    console.log(response);
     return response.json();
   })
   .then(data => {
-    console.log(data);
     // キーワードがある場合、絞込みを実施
     let pre_query = decodeURIComponent(window.location.search);
     let filtered = data;
