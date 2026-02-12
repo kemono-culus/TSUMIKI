@@ -31,5 +31,16 @@
     ],
     "comment": "転がすアニメーションに便利な差分付き",
     "post_date": "2026-02-13"
+  },
+  {
+    "item_number": 4,
+    "item_id": "unko",
+    "item_name": "うんこ",
+    "item_genre": "くらし",
+    "tags": [
+      "トイレ"
+    ],
+    "comment": "うんこです",
+    "post_date": "2026-02-13"
   }
 ]
