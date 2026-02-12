@@ -42,5 +42,29 @@
     ],
     "comment": "うんこです",
     "post_date": "2026-02-13"
+  },
+  {
+    "item_number": 5,
+    "item_id": "padlock",
+    "item_name": "錠前",
+    "item_genre": "くらし",
+    "tags": [
+      "ボードゲーム",
+      "謎解き"
+    ],
+    "comment": "開閉の差分あり",
+    "post_date": "2026-02-13"
+  },
+  {
+    "item_number": 6,
+    "item_id": "key",
+    "item_name": "かぎ",
+    "item_genre": "くらし",
+    "tags": [
+      "ボードゲーム",
+      "謎解き"
+    ],
+    "comment": "シンプルなかぎ",
+    "post_date": "2026-02-13"
   }
 ]
