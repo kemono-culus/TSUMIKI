@@ -1,44 +1,24 @@
 [
   {
     "item_number": 1,
-    "item_id": "sordman",
-    "item_name": "剣士",
-    "item_genre": "人",
+    "item_id": "coin_gold",
+    "item_name": "金のコイン",
+    "item_genre": "サプライ",
     "tags": [
-      "RPG",
-      "TAG5",
-      "ボードゲーム",
-      "武器"
+      "ボードゲーム"
     ],
-    "comment": "コメント",
-    "post_date": "2026-02-12"
+    "comment": "おもて、うら、よこの差分あり",
+    "post_date": "2026-02-13"
   },
   {
     "item_number": 2,
-    "item_id": "wizard",
-    "item_name": "魔法使い",
-    "item_genre": "人",
+    "item_id": "coin_silver",
+    "item_name": "銀のコイン",
+    "item_genre": "サプライ",
     "tags": [
-      "RPG",
-      "ボードゲーム",
-      "武器"
+      "ボードゲーム"
     ],
-    "comment": "コメント",
-    "post_date": "2026-02-12"
-  },
-  {
-    "item_number": 3,
-    "item_id": "warrior",
-    "item_name": "戦士",
-    "item_genre": "人",
-    "tags": [
-      "RPG",
-      "tag4",
-      "TAG5",
-      "ボードゲーム",
-      "武器"
-    ],
-    "comment": "コメント",
-    "post_date": "2026-02-12"
+    "comment": "おもて、うら、よこの差分あり",
+    "post_date": "2026-02-13"
   }
 ]
