@@ -61,7 +61,7 @@ function renderNextItems() {
 // JSONを読み込んで初期化
 function loadItemList() {
   // jsonを読み込み
-  fetch('../../storage/json/data.json')
+  fetch('./SpriteBox/storage/json/data.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('JSONの読み込みに失敗しました');
