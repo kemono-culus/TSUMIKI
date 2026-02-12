@@ -20,5 +20,16 @@
     ],
     "comment": "おもて、うら、よこの差分あり",
     "post_date": "2026-02-13"
+  },
+  {
+    "item_number": 3,
+    "item_id": "dice",
+    "item_name": "さいころ",
+    "item_genre": "サプライ",
+    "tags": [
+      "ボードゲーム"
+    ],
+    "comment": "転がすアニメーションに便利な差分付き",
+    "post_date": "2026-02-13"
   }
 ]
