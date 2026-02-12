@@ -1,5 +1,3 @@
-const GAS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbzcpOt8KXo1ntnvIbG3urc33VMylivfwX6bCNG7rB1LUaqMd_1HHvPrthGRUczPtw/exec';
-
 /**
  * リストの制御
  */
@@ -20,28 +18,29 @@ function renderNextItems() {
   slice.forEach(item => {
     html += `
         <li>
-          <div>
+          <div id="${item.item_id}">
             <a href="javascript:void(0)"
               onclick="openModal(this); return false;"
               data-id="${item.item_id}"
               data-name="${item.item_name}"
               data-comment="${item.comment}"
             >
-              <!-- 画像 -->
               <div class="item_img_wrap">
                 <img src="./storage/images/thumbnail/${item.item_id}.jpg" alt="">
               </div>
-              <!-- 名前 -->
               <p class="item_title">${item.item_name}</p>
             </a>
-            <!-- コメント -->
             <p class="item_comment">${item.comment}</p>
-            <!-- タグ -->
             <div class="item_tags">
               <span class="genre"><a href="?genre=${item.item_genre}">${item.item_genre}</a></span>
-              <span><a href="?tag=${item.tags[0]}">${item.tags[0]}</a></span>
-              <span><a href="?tag=${item.tags[1]}">${item.tags[1]}</a></span>
-              <span><a href="?tag=${item.tags[2]}">${item.tags[2]}</a></span>
+    `;
+
+    // タグ
+    item.tags.forEach(tag => {
+      html += `<span><a href="?tag=${tag}">${tag}</a></span>`;
+    });
+
+    html += `
             </div>
           </div>
         </li>
