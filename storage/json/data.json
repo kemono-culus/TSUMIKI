@@ -1,0 +1,44 @@
+[
+  {
+    "item_number": 1,
+    "item_id": "sordman",
+    "item_name": "剣士",
+    "item_genre": "人",
+    "tags": [
+      "RPG",
+      "TAG5",
+      "ボードゲーム",
+      "武器"
+    ],
+    "comment": "コメント",
+    "post_date": "2026-02-12"
+  },
+  {
+    "item_number": 2,
+    "item_id": "wizard",
+    "item_name": "魔法使い",
+    "item_genre": "人",
+    "tags": [
+      "RPG",
+      "ボードゲーム",
+      "武器"
+    ],
+    "comment": "コメント",
+    "post_date": "2026-02-12"
+  },
+  {
+    "item_number": 3,
+    "item_id": "warrior",
+    "item_name": "戦士",
+    "item_genre": "人",
+    "tags": [
+      "RPG",
+      "tag4",
+      "TAG5",
+      "ボードゲーム",
+      "武器"
+    ],
+    "comment": "コメント",
+    "post_date": "2026-02-12"
+  }
+]

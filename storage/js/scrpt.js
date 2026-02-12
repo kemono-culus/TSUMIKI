@@ -29,7 +29,7 @@ function renderNextItems() {
             >
               <!-- 画像 -->
               <div class="item_img_wrap">
-                <img src="./storage/images/thumbnail/test/${item.item_id}.jpg" alt="">
+                <img src="./storage/images/thumbnail/${item.item_id}.jpg" alt="">
               </div>
               <!-- 名前 -->
               <p class="item_title">${item.item_name}</p>
@@ -61,13 +61,10 @@ function renderNextItems() {
 // JSONを読み込んで初期化
 function loadItemList() {
   // jsonを読み込み
-  // TODO② スプレッドシートからJSONを取得
-  fetch(GAS_ENDPOINT, {
-    method: 'GET'
-  })
+  fetch('../../storage/json/data.json')
   .then(response => {
     if (!response.ok) {
-      throw new Error('HTTP error: ' + response.status);
+      throw new Error('JSONの読み込みに失敗しました');
     }
     return response.json();
   })
@@ -90,7 +87,7 @@ function loadItemList() {
 
     // 登録日の降順にソート
     items = filtered.sort((a, b) =>
-      a.registration_date.localeCompare(b.registration_date)
+      a.post_date.localeCompare(b.post_date)
     );
 
     // 件数を表示
@@ -141,12 +138,12 @@ function openModal(trigger) {
   let html = `
     <p><span id="modalName">${trigger.dataset.name}</span></p>
     <div class="modal_img_wrapper">
-      <img id="modalImg" src="./storage/images/thumbnail/test/${trigger.dataset.id}.jpg" alt="">
+      <img id="modalImg" src="./storage/images/thumbnail/${trigger.dataset.id}.jpg" alt="${trigger.dataset.name}">
     </div>
     <p><span id="modalComment">${trigger.dataset.comment}</span></p>
 
     <div class="modal_btn_wrapper">
-      <button class="modal_btn download" onclick="downloadItem('${trigger.dataset.id}','./storage/images/thumbnail/test/${trigger.dataset.id}.jpg')">ダウンロード</button>
+      <button class="modal_btn download" onclick="downloadItem('${trigger.dataset.id}','./storage/images/data/${trigger.dataset.id}.zip')">ダウンロード</button>
       <button class="modal_btn" onclick="closeModal()">閉じる</button>
     </div>
   `
@@ -175,31 +172,6 @@ function downloadItem(id, path) {
 
   // モーダルを閉じる
   closeModal();
-
-  // TODO③ 集計
-  sendIdToGAS(id);
-}
-
-// 素材のダウンロード数に加算
-async function sendIdToGAS(id) {
-
-  if (typeof id !== 'string' || id.trim() === '') {
-    throw new Error('id must be a non-empty string');
-  }
-
-  const response = await fetch(GAS_ENDPOINT, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/x-www-form-urlencoded'
-    },
-    body: new URLSearchParams({ 'id': id })
-  });
-
-  if (!response.ok) {
-    throw new Error(`HTTP error: ${response.status}`);
-  }
-
-  return response.json();
 }
 
 // 画面のロード時に実行
@@ -218,7 +190,7 @@ function setDropdownMenu(){
     // 新着順
     if (selectedValue == "newest") {
       items = items.sort((a, b) =>
-        a.registration_date.localeCompare(b.registration_date)
+        a.post_date.localeCompare(b.post_date)
       );
     }
 
@@ -226,13 +198,6 @@ function setDropdownMenu(){
     if (selectedValue == "name") {
       items = items.sort((a, b) =>
         a.item_name.localeCompare(b.item_name, undefined, { numeric: true })
-      );
-    }
-
-    // 人気順
-    if (selectedValue == "popularity") {
-      items = items.sort((a, b) =>
-        b.download_count - a.download_count
       );
     }
 
