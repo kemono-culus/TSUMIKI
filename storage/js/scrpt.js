@@ -26,9 +26,9 @@ function renderNextItems() {
               data-comment="${item.comment}"
             >
               <div class="item_img_wrap">
-                <img src="./storage/images/thumbnail/${item.item_id}.jpg" alt="">
+                <img src="./storage/images/thumbnail/${item.item_id}.jpg" alt="Scratch用 ${item.item_name} の無料画像素材">
               </div>
-              <p class="item_title">${item.item_name}</p>
+              <h3 class="item_title">${item.item_name}</h3>
             </a>
             <p class="item_comment">${item.comment}</p>
             <div class="item_tags">
@@ -70,10 +70,11 @@ function loadItemList() {
   .then(data => {
     // キーワードがある場合、絞込みを実施
     let pre_query = decodeURIComponent(window.location.search);
+    let query = "";
     let filtered = data;
     if (pre_query) {
       // パラメータをKVに分割
-      let query = pre_query.replace("?", "").split("=");
+      query = pre_query.replace("?", "").split("=");
 
       // ジャンルで絞込み
       if (query[0] == "genre")
@@ -89,8 +90,12 @@ function loadItemList() {
       a.post_date.localeCompare(b.post_date)
     );
 
-    // 件数を表示
-    document.getElementById("items_count").innerHTML = items.length;
+    // キーワード、絞込み件数を表示
+    if (pre_query) {
+      document.getElementById("current_items").innerHTML = `${query[0]}:${query[1]} (${items.length})`;
+    } else {
+      document.getElementById("current_items").innerHTML = `All Works (${items.length})`;
+    }
 
     // 描画
     renderNextItems();

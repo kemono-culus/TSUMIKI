@@ -122,6 +122,35 @@ header {
   min-height: 720px;
 }
 
+.site_info {
+  display: flex;
+  justify-content: center;
+  margin: 48px 0;
+      font-size: 92%;
+}
+
+.site_info div {
+    border: solid 2px lightgray;
+    border-radius: 16px;
+    padding: 40px 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background: #ffffff75;
+    width: 100%;
+}
+
+.site_info h1 {
+color: gray;
+    margin-bottom: 24px;}
+
+.site_info p {
+color: gray;
+}
+
 .item_header {
   display: flex;
   justify-content: center;
