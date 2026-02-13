@@ -5,6 +5,15 @@
 
 body {
   background: #eeeeee;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Helvetica Neue",
+    "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN",
+    "Noto Sans JP",
+    Arial,
+    sans-serif;
 }
 
 /* モーダル表示中はスクロール禁止 */
