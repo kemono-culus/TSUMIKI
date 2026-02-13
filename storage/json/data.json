@@ -3,9 +3,11 @@
     "item_number": 1,
     "item_id": "coin_gold",
     "item_name": "金のコイン",
-    "item_genre": "サプライ",
+    "item_genre": "アイテム",
     "tags": [
-      "ボードゲーム"
+      "お金",
+      "ボードゲーム",
+      "金"
     ],
     "comment": "おもて、うら、よこの差分あり",
     "post_date": "2026-02-13"
@@ -14,9 +16,11 @@
     "item_number": 2,
     "item_id": "coin_silver",
     "item_name": "銀のコイン",
-    "item_genre": "サプライ",
+    "item_genre": "アイテム",
     "tags": [
-      "ボードゲーム"
+      "お金",
+      "ボードゲーム",
+      "銀"
     ],
     "comment": "おもて、うら、よこの差分あり",
     "post_date": "2026-02-13"
@@ -25,11 +29,22 @@
     "item_number": 3,
     "item_id": "dice",
     "item_name": "さいころ",
-    "item_genre": "サプライ",
+    "item_genre": "アイテム",
     "tags": [
       "ボードゲーム"
     ],
-    "comment": "6つの面を正面から見たさいころ<br>アニメーションに便利な対角線視点の差分付き",
+    "comment": "6つの面を正面から見たさいころ",
+    "post_date": "2026-02-13"
+  },
+  {
+    "item_number": 3,
+    "item_id": "dice_edge",
+    "item_name": "さいころ",
+    "item_genre": "アイテム",
+    "tags": [
+      "ボードゲーム"
+    ],
+    "comment": "斜めの視点から3つの面が見えるさいころ",
     "post_date": "2026-02-13"
   },
   {
@@ -64,7 +79,7 @@
       "ボードゲーム",
       "謎解き"
     ],
-    "comment": "シンプルなかぎ",
+    "comment": "シンプルな金色のかぎです",
     "post_date": "2026-02-13"
   }
 ]
