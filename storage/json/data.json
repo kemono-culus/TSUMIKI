@@ -81,5 +81,65 @@
     ],
     "comment": "シンプルな金色のかぎです",
     "post_date": "2026-02-13"
+  },
+  {
+    "item_number": 7,
+    "item_id": "door_brown",
+    "item_name": "木のドア",
+    "item_genre": "くらし",
+    "tags": [
+      "家",
+      "謎解き"
+    ],
+    "comment": "閉じた状態、開いた状態の差分がある、茶色のドアです",
+    "post_date": "2026-02-14"
+  },
+  {
+    "item_number": 8,
+    "item_id": "door_green",
+    "item_name": "緑のドア",
+    "item_genre": "くらし",
+    "tags": [
+      "家",
+      "謎解き"
+    ],
+    "comment": "閉じた状態、開いた状態の差分がある、緑色のドアです",
+    "post_date": "2026-02-14"
+  },
+  {
+    "item_number": 9,
+    "item_id": "door_pink",
+    "item_name": "ピンクのドア",
+    "item_genre": "くらし",
+    "tags": [
+      "家",
+      "謎解き"
+    ],
+    "comment": "閉じた状態、開いた状態の差分がある、桃色のドアです",
+    "post_date": "2026-02-14"
+  },
+  {
+    "item_number": 10,
+    "item_id": "bone-in-meat",
+    "item_name": "骨付き肉",
+    "item_genre": "食べ物",
+    "tags": [
+      "お肉",
+      "骨"
+    ],
+    "comment": "生の状態から、焼いて、骨になるまで食べるアニメーション付きのお肉です",
+    "post_date": "2026-02-14"
+  },
+  {
+    "item_number": 11,
+    "item_id": "aim",
+    "item_name": "照準",
+    "item_genre": "記号・UI",
+    "tags": [
+      "シューティング",
+      "バトル"
+    ],
+    "comment": "狙いを定める時に使う、アレです<br>緑と赤の二色をセットにしました",
+    "post_date": "2026-02-14"
   }
 ]
