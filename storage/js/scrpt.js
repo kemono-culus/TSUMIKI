@@ -87,7 +87,7 @@ function loadItemList() {
 
     // 登録日の降順にソート
     items = filtered.sort((a, b) =>
-      a.post_date.localeCompare(b.post_date)
+      b.post_date.localeCompare(a.post_date)
     );
 
     // キーワード、絞込み件数を表示
@@ -194,7 +194,7 @@ function setDropdownMenu(){
     // 新着順
     if (selectedValue == "newest") {
       items = items.sort((a, b) =>
-        a.post_date.localeCompare(b.post_date)
+        b.post_date.localeCompare(a.post_date)
       );
     }
 
