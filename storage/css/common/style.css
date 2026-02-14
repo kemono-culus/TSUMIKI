@@ -349,8 +349,44 @@ color: gray;
   text-decoration: none;
 }
 
-.item_tags span.genre {
-  background: rgb(255, 162, 0);
+.item_tags span.genre.human {
+  background: rgb(240, 48, 0);
+}
+
+.item_tags span.genre.animal {
+  background: rgb(243, 107, 28);
+}
+
+.item_tags span.genre.fantasy {
+  background: rgb(169, 63, 211);
+}
+
+.item_tags span.genre.item {
+  background: rgb(68, 95, 187);
+}
+
+.item_tags span.genre.life {
+  background: rgb(18, 187, 27);
+}
+
+.item_tags span.genre.food {
+  background: rgb(255, 200, 20);
+}
+
+.item_tags span.genre.nature {
+  background: rgb(24, 207, 116);
+}
+
+.item_tags span.genre.location {
+  background: rgb(190, 49, 132);
+}
+
+.item_tags span.genre.vehicle {
+  background: rgb(28, 103, 243);
+}
+
+.item_tags span.genre.ui {
+  background: rgb(70, 70, 70);
 }
 
 /* フッター */

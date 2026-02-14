@@ -32,7 +32,7 @@ function renderNextItems() {
             </a>
             <p class="item_comment">${item.comment}</p>
             <div class="item_tags">
-              <span class="genre"><a href="?genre=${item.item_genre}">${item.item_genre}</a></span>
+              <span class="genre ${item.genre_code}"><a href="?genre=${item.item_genre}">${item.item_genre}</a></span>
     `;
 
     // タグ
