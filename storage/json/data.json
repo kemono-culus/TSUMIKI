@@ -141,5 +141,43 @@
     ],
     "comment": "狙いを定める時に使う、アレです<br>緑と赤の二色をセットにしました",
     "post_date": "2026-02-14"
+  },
+  {
+    "item_number": 0,
+    "item_id": "janken_rock",
+    "item_name": "じゃんけん_ぐー",
+    "item_genre": "記号・UI",
+    "tags": [
+      "じゃんけん",
+      "バトル",
+      "手"
+    ],
+    "comment": "握った手です<br>じゃんけんのぐー、パンチにも使えます",
+    "post_date": "2026-02-14"
+  },
+  {
+    "item_number": 0,
+    "item_id": "janken_scissors",
+    "item_name": "じゃんけん_ちょき",
+    "item_genre": "記号・UI",
+    "tags": [
+      "じゃんけん",
+      "ハンドサイン",
+      "手"
+    ],
+    "comment": "二本指を立てた手です<br>じゃんけんのちょき、ピースサインにも使えます",
+    "post_date": "2026-02-14"
+  },
+  {
+    "item_number": 0,
+    "item_id": "janken_paper",
+    "item_name": "じゃんけん_ぱー",
+    "item_genre": "記号・UI",
+    "tags": [
+      "じゃんけん",
+      "手"
+    ],
+    "comment": "五本指を立てた手です<br>じゃんけんのぱーに使えます",
+    "post_date": "2026-02-14"
   }
 ]

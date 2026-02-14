@@ -26,7 +26,7 @@ function renderNextItems() {
               data-comment="${item.comment}"
             >
               <div class="item_img_wrap">
-                <img src="./storage/images/thumbnail/${item.item_id}.jpg" alt="Scratch用 ${item.item_name} の無料画像素材">
+                <img src="./storage/images/thumbnail/${item.item_id}.jpg" alt="Scratch用 ${item.item_name} の無料画像素材" loading="lazy">
               </div>
               <h3 class="item_title">${item.item_name}</h3>
             </a>
@@ -142,7 +142,7 @@ function openModal(trigger) {
   let html = `
     <p><span id="modalName">${trigger.dataset.name}</span></p>
     <div class="modal_img_wrapper">
-      <img id="modalImg" src="./storage/images/thumbnail/${trigger.dataset.id}.jpg" alt="${trigger.dataset.name}">
+      <img id="modalImg" src="./storage/images/thumbnail/${trigger.dataset.id}.jpg" alt="${trigger.dataset.name}" loading="lazy">
     </div>
     <p><span id="modalComment">${trigger.dataset.comment}</span></p>
 
