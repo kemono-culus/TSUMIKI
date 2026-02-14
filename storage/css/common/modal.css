@@ -42,7 +42,7 @@
 img#modalImg {
   width: 100%;
   overflow: hidden;
-  border-radius: 16px;
+  border-radius: 12px;
 }
 
 span#modalName {
