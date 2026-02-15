@@ -146,7 +146,7 @@
       "お肉",
       "骨"
     ],
-    "comment": "生の状態から、焼いて、骨になるまで食べるアニメーション付きのお肉です",
+    "comment": "骨付きのいわゆる「マンガ肉」です<br>生の状態から、焼いて、骨になるまで食べるアニメーション付き",
     "post_date": "2026-02-14"
   },
   {
@@ -261,5 +261,143 @@
     ],
     "comment": "優しい色のフローリングです<br>ぴったり並べると好きなサイズに出来ます",
     "post_date": "2026-02-15"
+  },
+  {
+    "item_number": 19,
+    "item_id": "wood-tile",
+    "item_name": "木のタイル",
+    "item_genre": "建物・場所",
+    "genre_code": "location",
+    "tags": [
+      "マップチップ",
+      "家",
+      "床",
+      "内装"
+    ],
+    "comment": "組み木の床です<br>半屋外の建物などでよく見ますね",
+    "post_date": "2026-02-15"
+  },
+  {
+    "item_number": 20,
+    "item_id": "honey-bee",
+    "item_name": "ミツバチ",
+    "item_genre": "動物",
+    "genre_code": "animal",
+    "tags": [
+      "昆虫",
+      "働き蜂"
+    ],
+    "comment": "可愛らしい蜂です<br>羽ばたくアニメーション、怒った顔、よろこぶ顔の差分付き",
+    "post_date": "2026-02-15"
+  },
+  {
+    "item_number": 21,
+    "item_id": "flower",
+    "item_name": "お花",
+    "item_genre": "自然",
+    "genre_code": "nature",
+    "tags": [
+      "園芸",
+      "花",
+      "植物"
+    ],
+    "comment": "背の低い小さなお花です",
+    "post_date": "2026-02-15"
+  },
+  {
+    "item_number": 22,
+    "item_id": "flower2",
+    "item_name": "お花２",
+    "item_genre": "自然",
+    "genre_code": "nature",
+    "tags": [
+      "園芸",
+      "花",
+      "植物"
+    ],
+    "comment": "背の高いお花です",
+    "post_date": "2026-02-15"
+  },
+  {
+    "item_number": 23,
+    "item_id": "bomb",
+    "item_name": "爆弾",
+    "item_genre": "ファンタジー",
+    "genre_code": "fantasy",
+    "tags": [
+      "バトル",
+      "武器"
+    ],
+    "comment": "大きな爆弾<br>火が付いた差分付き",
+    "post_date": "2026-02-16"
+  },
+  {
+    "item_number": 24,
+    "item_id": "kunai",
+    "item_name": "くない",
+    "item_genre": "ファンタジー",
+    "genre_code": "fantasy",
+    "tags": [
+      "バトル",
+      "忍者",
+      "武器"
+    ],
+    "comment": "投げてよし、振るってよしの忍者の武器",
+    "post_date": "2026-02-16"
+  },
+  {
+    "item_number": 25,
+    "item_id": "bullet",
+    "item_name": "弾丸",
+    "item_genre": "ファンタジー",
+    "genre_code": "fantasy",
+    "tags": [
+      "バトル",
+      "銃",
+      "武器"
+    ],
+    "comment": "ピストルの弾",
+    "post_date": "2026-02-16"
+  },
+  {
+    "item_number": 26,
+    "item_id": "rifle-bullet",
+    "item_name": "ライフル弾",
+    "item_genre": "ファンタジー",
+    "genre_code": "fantasy",
+    "tags": [
+      "バトル",
+      "銃",
+      "武器"
+    ],
+    "comment": "ライフル銃の弾",
+    "post_date": "2026-02-16"
+  },
+  {
+    "item_number": 27,
+    "item_id": "arrow",
+    "item_name": "矢",
+    "item_genre": "ファンタジー",
+    "genre_code": "fantasy",
+    "tags": [
+      "バトル",
+      "武器"
+    ],
+    "comment": "シンプルな矢",
+    "post_date": "2026-02-16"
+  },
+  {
+    "item_number": 28,
+    "item_id": "shuriken",
+    "item_name": "手裏剣",
+    "item_genre": "ファンタジー",
+    "genre_code": "fantasy",
+    "tags": [
+      "バトル",
+      "忍者",
+      "武器"
+    ],
+    "comment": "忍者の武器、四方手裏剣",
+    "post_date": "2026-02-16"
   }
 ]
