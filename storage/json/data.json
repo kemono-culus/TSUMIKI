@@ -322,8 +322,8 @@
     "item_number": 23,
     "item_id": "bomb",
     "item_name": "爆弾",
-    "item_genre": "ファンタジー",
-    "genre_code": "fantasy",
+    "item_genre": "アイテム",
+    "genre_code": "item",
     "tags": [
       "バトル",
       "武器"
@@ -335,8 +335,8 @@
     "item_number": 24,
     "item_id": "kunai",
     "item_name": "くない",
-    "item_genre": "ファンタジー",
-    "genre_code": "fantasy",
+    "item_genre": "アイテム",
+    "genre_code": "item",
     "tags": [
       "バトル",
       "忍者",
@@ -349,8 +349,8 @@
     "item_number": 25,
     "item_id": "bullet",
     "item_name": "弾丸",
-    "item_genre": "ファンタジー",
-    "genre_code": "fantasy",
+    "item_genre": "アイテム",
+    "genre_code": "item",
     "tags": [
       "バトル",
       "銃",
@@ -363,8 +363,8 @@
     "item_number": 26,
     "item_id": "rifle-bullet",
     "item_name": "ライフル弾",
-    "item_genre": "ファンタジー",
-    "genre_code": "fantasy",
+    "item_genre": "アイテム",
+    "genre_code": "item",
     "tags": [
       "バトル",
       "銃",
@@ -377,8 +377,8 @@
     "item_number": 27,
     "item_id": "arrow",
     "item_name": "矢",
-    "item_genre": "ファンタジー",
-    "genre_code": "fantasy",
+    "item_genre": "アイテム",
+    "genre_code": "item",
     "tags": [
       "バトル",
       "武器"
@@ -390,8 +390,8 @@
     "item_number": 28,
     "item_id": "shuriken",
     "item_name": "手裏剣",
-    "item_genre": "ファンタジー",
-    "genre_code": "fantasy",
+    "item_genre": "アイテム",
+    "genre_code": "item",
     "tags": [
       "バトル",
       "忍者",
@@ -399,5 +399,89 @@
     ],
     "comment": "忍者の武器、四方手裏剣",
     "post_date": "2026-02-16"
+  },
+  {
+    "item_number": 29,
+    "item_id": "tatami",
+    "item_name": "畳",
+    "item_genre": "建物・場所",
+    "genre_code": "location",
+    "tags": [
+      "マップチップ",
+      "家",
+      "床",
+      "内装",
+      "和室"
+    ],
+    "comment": "一畳分の畳です<br>床の素材だけでなく、盾に使うことも出来ます",
+    "post_date": "2026-02-17"
+  },
+  {
+    "item_number": 30,
+    "item_id": "cedar-stick",
+    "item_name": "ひのきの棒",
+    "item_genre": "自然",
+    "genre_code": "nature",
+    "tags": [
+      "植物",
+      "武器",
+      "木"
+    ],
+    "comment": "良い感じの棒です<br>地域によっては伝説の剣として扱われます",
+    "post_date": "2026-02-17"
+  },
+  {
+    "item_number": 31,
+    "item_id": "potion_cure",
+    "item_name": "治癒のポーション",
+    "item_genre": "アイテム",
+    "genre_code": "item",
+    "tags": [
+      "RPG",
+      "医療"
+    ],
+    "comment": "使うと良いことが起きそうなポーションです",
+    "post_date": "2026-02-17"
+  },
+  {
+    "item_number": 32,
+    "item_id": "potion_poizon",
+    "item_name": "毒のポーション",
+    "item_genre": "アイテム",
+    "genre_code": "item",
+    "tags": [
+      "RPG",
+      "医療",
+      "罠"
+    ],
+    "comment": "使うと悪いことが起きそうなポーションです",
+    "post_date": "2026-02-17"
+  },
+  {
+    "item_number": 33,
+    "item_id": "riseball",
+    "item_name": "おにぎり",
+    "item_genre": "食べ物",
+    "genre_code": "food",
+    "tags": [
+      "お米",
+      "和食"
+    ],
+    "comment": "日本の伝統的な食べ物<br>食べたり、転がしたりすることが出来ます",
+    "post_date": "2026-02-17"
+  },
+  {
+    "item_number": 34,
+    "item_id": "human",
+    "item_name": "シンプルな人",
+    "item_genre": "人",
+    "genre_code": "human",
+    "tags": [
+      "RPG",
+      "脱出",
+      "探索"
+    ],
+    "comment": "前後左右にそれぞれ歩くモーション付き",
+    "post_date": "2026-02-17"
   }
 ]
