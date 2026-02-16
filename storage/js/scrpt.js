@@ -147,7 +147,7 @@ function openModal(trigger) {
     <p><span id="modalComment">${trigger.dataset.comment}</span></p>
 
     <div class="modal_btn_wrapper">
-      <button class="modal_btn download" onclick="downloadItem('${trigger.dataset.id}','./storage/images/data/${trigger.dataset.id}.zip')">ダウンロード</button>
+      <button class="modal_btn download" onclick="downloadItem('${trigger.dataset.id}','${trigger.dataset.name}','./storage/images/data/${trigger.dataset.id}.zip')">ダウンロード</button>
       <button class="modal_btn" onclick="closeModal()">閉じる</button>
     </div>
   `
@@ -164,7 +164,7 @@ function closeModal() {
 }
 
 // 素材をダウンロード
-function downloadItem(id, path) {
+function downloadItem(id, name, path) {
   var a = document.createElement('a');
   a.style.display = 'none';
   a.download = id;
@@ -175,7 +175,7 @@ function downloadItem(id, path) {
   document.body.removeChild(a);
 
   // POST
-  sendData();
+  sendData(id, name);
 
   // モーダルを閉じる
   closeModal();
@@ -217,23 +217,23 @@ function setDropdownMenu(){
   });
 }
 
-// デプロイしたURL
-const GAS_URL = 'https://script.google.com/macros/s/AKfycbzkk74yaY7snu6tyJO4iuDNhZXbqekHym-X7XyEQxRGRx1X02FZ5_1f8KE2u6krI2B7HA/exec';
 
-function sendData() {
+
+// ダウンロード実績を集計
+const GAS_URL = 'https://script.google.com/macros/s/AKfycbzakYgmZjTJKb5zrvlSGeWxcL4y9PUehsEZJRfQurXfrD0zTfJqBCNCAl-kxOohyBHvPg/exec';
+function sendData(id, name) {
   const data = {
-    name: "test",
-    message: "test"
+    id: id,
+    name: name
   };
 
   fetch(GAS_URL, {
     method: 'POST',
-    mode: 'no-cors', // CORSエラーを避けるための設定
+    mode: 'no-cors',
     headers: {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify(data)
   })
-  .then(response => console.log('Success!'))
   .catch(error => console.error('Error:', error));
 }
