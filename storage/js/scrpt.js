@@ -174,6 +174,9 @@ function downloadItem(id, path) {
   a.click();
   document.body.removeChild(a);
 
+  // POST
+  sendData();
+
   // モーダルを閉じる
   closeModal();
 }
@@ -212,4 +215,25 @@ function setDropdownMenu(){
     renderNextItems();
     setupObserver();
   });
+}
+
+// デプロイしたURL
+const GAS_URL = 'https://script.google.com/macros/s/AKfycbzkk74yaY7snu6tyJO4iuDNhZXbqekHym-X7XyEQxRGRx1X02FZ5_1f8KE2u6krI2B7HA/exec';
+
+function sendData() {
+  const data = {
+    name: document.getElementById('name').value,
+    message: document.getElementById('message').value
+  };
+
+  fetch(GAS_URL, {
+    method: 'POST',
+    mode: 'no-cors', // CORSエラーを避けるための設定
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data)
+  })
+  .then(response => console.log('Success!'))
+  .catch(error => console.error('Error:', error));
 }
