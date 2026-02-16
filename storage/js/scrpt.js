@@ -220,7 +220,7 @@ function setDropdownMenu(){
 
 
 // ダウンロード実績を集計
-const GAS_URL = 'https://script.google.com/macros/s/AKfycbzakYgmZjTJKb5zrvlSGeWxcL4y9PUehsEZJRfQurXfrD0zTfJqBCNCAl-kxOohyBHvPg/exec';
+const GAS_URL = 'https://script.google.com/macros/s/AKfycbxF_otTYSWzVjlaOilET-725sBgyjAXJe9utwejRMHkaqSTpMpw6t-idSguGZxpo7YFNA/exec';
 function sendData(id, name) {
   const data = {
     id: id,
