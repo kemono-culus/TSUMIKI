@@ -222,8 +222,8 @@ const GAS_URL = 'https://script.google.com/macros/s/AKfycbzkk74yaY7snu6tyJO4iuDN
 
 function sendData() {
   const data = {
-    name: document.getElementById('name').value,
-    message: document.getElementById('message').value
+    name: "test",
+    message: "test"
   };
 
   fetch(GAS_URL, {
