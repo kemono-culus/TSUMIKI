@@ -483,5 +483,17 @@
     ],
     "comment": "前後左右にそれぞれ歩くモーション付き",
     "post_date": "2026-02-17"
+  },
+  {
+    "item_number": 35,
+    "item_id": "cat-copter",
+    "item_name": "ねここぷたー",
+    "item_genre": "動物",
+    "genre_code": "animal",
+    "tags": [
+      "猫"
+    ],
+    "comment": "空を飛ぶ猫です<br>しっぽが回転するアニメーション付き",
+    "post_date": "null"
   }
 ]
