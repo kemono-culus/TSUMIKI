@@ -194,17 +194,31 @@ function setDropdownMenu(){
     // プログラムで扱う値
     const selectedValue = this.value;
 
-    // 新着順
+    // 新しい順
     if (selectedValue == "newest") {
       items = items.sort((a, b) =>
         b.post_date.localeCompare(a.post_date)
       );
     }
 
-    // 名前順
-    if (selectedValue == "name") {
+    // 古い順
+    if (selectedValue == "oldest") {
+      items = items.sort((a, b) =>
+        a.post_date.localeCompare(b.post_date)
+      );
+    }
+
+    // 名前順（Ａ-Ｚ）
+    if (selectedValue == "name_az") {
       items = items.sort((a, b) =>
         a.item_name.localeCompare(b.item_name, undefined, { numeric: true })
+      );
+    }
+
+    // 名前順（Ｚ-Ａ）
+    if (selectedValue == "name_za") {
+      items = items.sort((a, b) =>
+        b.item_name.localeCompare(a.item_name, undefined, { numeric: true })
       );
     }
 
