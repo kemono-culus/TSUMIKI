@@ -16,11 +16,6 @@ body {
     sans-serif;
 }
 
-/* モーダル表示中はスクロール禁止 */
-/*body.no-scroll {
-  overflow: hidden;
-}*/
-
 h2 {
   color: rgb(75 71 85);
   width: 150%;
@@ -126,29 +121,66 @@ header {
   display: flex;
   justify-content: center;
   margin: 48px 0;
-      font-size: 92%;
+  font-size: 92%;
 }
 
 .site_info div {
-    border: solid 2px lightgray;
-    border-radius: 16px;
-    padding: 40px 24px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    background: #ffffff75;
-    width: 100%;
+  border: solid 2px lightgray;
+  border-radius: 16px;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background: #ffffff75;
+  width: 100%;
 }
 
 .site_info h1 {
-color: gray;
-    margin-bottom: 24px;}
+  color: gray;
+  margin-bottom: 24px;
+}
 
 .site_info p {
-color: gray;
+  color: gray;
+}
+
+.genre_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 16px;
+  margin-bottom: 32px;
+}
+
+.genre_list a {
+  color: white;
+  text-decoration: none;
+}
+
+.genre_list span {
+  background: gray;
+  padding: 4px 20px;
+  border-radius: 16px;
+  transition: 0.2s;
+}
+
+.genre_list span:hover {
+  filter: brightness(1.2);
+}
+
+@media (max-width: 600px) {
+  .genre_list {
+    gap: 8px 12px;
+  }
+
+  .genre_list span {
+    font-size: 80%;
+    padding: 4px 16px;
+  }
 }
 
 .item_header {
@@ -349,43 +381,43 @@ color: gray;
   text-decoration: none;
 }
 
-.item_tags span.genre.human {
+span.genre.human {
   background: rgb(240, 48, 0);
 }
 
-.item_tags span.genre.animal {
+span.genre.animal {
   background: rgb(243, 107, 28);
 }
 
-.item_tags span.genre.fantasy {
+span.genre.fantasy {
   background: rgb(169, 63, 211);
 }
 
-.item_tags span.genre.item {
+span.genre.item {
   background: rgb(68, 95, 187);
 }
 
-.item_tags span.genre.life {
+span.genre.life {
   background: rgb(18, 187, 27);
 }
 
-.item_tags span.genre.food {
+span.genre.food {
   background: rgb(155 85 34);
 }
 
-.item_tags span.genre.nature {
-  background: rgb(24, 207, 116);
+span.genre.nature {
+  background: rgb(17 191 160);
 }
 
-.item_tags span.genre.location {
+span.genre.location {
   background: rgb(190, 49, 132);
 }
 
-.item_tags span.genre.vehicle {
+span.genre.vehicle {
   background: rgb(28, 103, 243);
 }
 
-.item_tags span.genre.ui {
+span.genre.ui {
   background: rgb(70, 70, 70);
 }
 
