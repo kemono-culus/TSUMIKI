@@ -1,0 +1,42 @@
+[
+  {
+    "id": "human",
+    "name": "人"
+  },
+  {
+    "id": "animal",
+    "name": "動物"
+  },
+  {
+    "id": "fantasy",
+    "name": "ファンタジー"
+  },
+  {
+    "id": "item",
+    "name": "アイテム"
+  },
+  {
+    "id": "life",
+    "name": "くらし"
+  },
+  {
+    "id": "food",
+    "name": "食べ物"
+  },
+  {
+    "id": "nature",
+    "name": "自然"
+  },
+  {
+    "id": "location",
+    "name": "建物・場所"
+  },
+  {
+    "id": "vehicle",
+    "name": "乗り物"
+  },
+  {
+    "id": "ui",
+    "name": "記号・UI"
+  }
+]

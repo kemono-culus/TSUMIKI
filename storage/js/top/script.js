@@ -101,6 +101,9 @@ function loadItemList() {
     renderNextItems();
     setupObserver();
 
+    // ジャンル一覧
+    setGenreList();
+
     // ドロップダウンメニューを設定
     setDropdownMenu();
   })
@@ -126,6 +129,40 @@ function setupObserver() {
   });
 
   observer.observe(sentinel);
+}
+
+// ジャンル一覧を描画
+function setGenreList() {
+  // JSONを読み込み
+  fetch('./storage/json/genre.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('JSONの読み込みに失敗しました');
+    }
+    return response.json();
+  })
+  .then(data => {
+    // HTMLを組み立て
+    let html = `
+      <div id="genre_list" class="genre_list">
+        <a href="${root}">
+          <span class="genre all">すべて</span>
+        </a>
+    `;
+    data.forEach(item => {
+      html += `
+        <a href="?genre=${item.name}">
+          <span class="genre ${item.id}">${item.name}</span>
+        </a>
+      `;
+    });
+    html += "</div>";
+
+    document.getElementById("genre_list").innerHTML = html;
+  })
+  .catch(error => {
+    console.error('エラー:', error);
+  });
 }
 
 
@@ -180,10 +217,6 @@ function downloadItem(id, name, path) {
   // モーダルを閉じる
   closeModal();
 }
-
-// 画面のロード時に実行
-document.addEventListener("DOMContentLoaded", loadItemList);
-
 
 
 // ソート順を変えて再描画
@@ -251,3 +284,8 @@ function sendData(id, name) {
   })
   .catch(error => console.error('Error:', error));
 }
+
+
+
+// 画面のロード時に実行
+document.addEventListener("DOMContentLoaded", loadItemList);

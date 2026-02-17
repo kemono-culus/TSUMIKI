@@ -32,23 +32,7 @@
   </div>
 
   <!-- ヘッダー -->
-  <header>
-    <div class="header_area">
-      <div class="header_left">
-        <a href="/TSUMIKI">
-          <img src="./storage/images/common/logo_black.png" height="52">
-        </a>
-      </div>
-      <div class="header_right">
-        <nav>
-          <ul>
-            <li><a class="nav_item" href="/TSUMIKI/pages/rule" target="_self">利用規約</a></li>
-            <li><a class="nav_item" href="/TSUMIKI/pages/about" target="_self">サイトについて</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
+  <header></header>
 
   <!-- メイン -->
   <div class="main_area">
@@ -63,20 +47,10 @@
         </p>
       </div>
     </div>
+
     <!-- ジャンルボタン -->
-    <div class="genre_list">
-      <a href="/TSUMIKI"><span class="genre all">すべて</span></a>
-      <a href="?genre=人"><span class="genre human">人</span></a>
-      <a href="?genre=動物"><span class="genre animal">動物</span></a>
-      <a href="?genre=ファンタジー"><span class="genre fantasy">ファンタジー</span></a>
-      <a href="?genre=アイテム"><span class="genre item">アイテム</span></a>
-      <a href="?genre=くらし"><span class="genre life">くらし</span></a>
-      <a href="?genre=食べ物"><span class="genre food">食べ物</span></a>
-      <a href="?genre=自然"><span class="genre nature">自然</span></a>
-      <a href="?genre=建物・場所"><span class="genre location">建物・場所</span></a>
-      <a href="?genre=乗り物"><span class="genre vehicle">乗り物</span></a>
-      <a href="?genre=記号・UI"><span class="genre ui">記号・UI</span></a>
-    </div>
+    <div id="genre_list" class="genre_list"></div>
+
     <div class="main_item_list">
       <!-- ソート -->
       <div class="item_header">
@@ -109,32 +83,16 @@
   </div>
 
   <!-- フッター -->
-  <footer>
-      <div class="footer_top">
-        <nav>
-          <ul>
-            <li><a class="nav_item" href="/TSUMIKI/pages/rule" target="_self">利用規約</a></li>
-            <li><a class="nav_item" href="/TSUMIKI/pages/about" target="_self">サイトについて</a></li>
-          </ul>
-        </nav>
-      </div>
-    <div class="footer_bottom">
-      <a href="/TSUMIKI">
-        <img src="./storage/images/common/logo_white.png" height="52">
-      </a>
-      <p>©けものくるす</p>
-    </div>
-  </footer>
+  <footer></footer>
 
   <!-- モーダル -->
   <div id="modal" class="hidden">
-    <!-- 背景 -->
     <div id="modalOverlay" onclick="closeModal()"></div>
-    <!-- 本体 -->
     <div id="modalContent"></div>
   </div>
 
   <!-- スクリプト -->
-  <script src="./storage/js/scrpt.js"></script>
+  <script src="./storage/js/common/script.js"></script>
+  <script src="./storage/js/top/script.js"></script>
 </body>
 </html>
