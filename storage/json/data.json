@@ -494,6 +494,58 @@
       "猫"
     ],
     "comment": "空を飛ぶ猫です<br>しっぽが回転するアニメーション付き",
-    "post_date": "null"
+    "post_date": "2026-02-17"
+  },
+  {
+    "item_number": 0,
+    "item_id": "loading_circle_large",
+    "item_name": "ローディング（まる）",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "ロード",
+      "待機"
+    ],
+    "comment": "ローディングアニメーションに使えます",
+    "post_date": "2026-02-17"
+  },
+  {
+    "item_number": 0,
+    "item_id": "loading_circle_small",
+    "item_name": "ローディング（まる）",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "ロード",
+      "待機"
+    ],
+    "comment": "ローディングアニメーションに使えます",
+    "post_date": "2026-02-17"
+  },
+  {
+    "item_number": 0,
+    "item_id": "loading_square_large",
+    "item_name": "ローディング（しかく）",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "ロード",
+      "待機"
+    ],
+    "comment": "ローディングアニメーションに使えます",
+    "post_date": "2026-02-17"
+  },
+  {
+    "item_number": 0,
+    "item_id": "loading_square_small",
+    "item_name": "ローディング（しかく）",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "ロード",
+      "待機"
+    ],
+    "comment": "ローディングアニメーションに使えます",
+    "post_date": "2026-02-17"
   }
 ]
