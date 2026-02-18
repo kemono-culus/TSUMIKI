@@ -1,6 +1,5 @@
 // root URL
 const root = "https://kemono-culus.github.io/TSUMIKI/";
-//const root = "http://127.0.0.1:5500/";
 
 // 画面のロード時に実行
 document.addEventListener("DOMContentLoaded", loadContents);
