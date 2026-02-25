@@ -608,13 +608,30 @@
     "item_number": 44,
     "item_id": "light_bulb",
     "item_name": "電球",
-    "item_genre": "アイテム",
-    "genre_code": "item",
+    "item_genre": "くらし",
+    "genre_code": "life",
     "tags": [
+      "ひらめき",
       "電気",
       "明かり"
     ],
     "comment": "オンとオフの差分付き",
+    "post_date": "2026-02-26"
+  },
+  {
+    "item_number": 45,
+    "item_id": "golem",
+    "item_name": "ゴーレム",
+    "item_genre": "ファンタジー",
+    "genre_code": "fantasy",
+    "tags": [
+      "RPG",
+      "バトル",
+      "モンスター",
+      "金",
+      "宝石"
+    ],
+    "comment": "石や鉱石で出来た不思議な生き物です<br>石、銅、鉄、金、エメラルドの差分があります",
     "post_date": "2026-02-26"
   }
 ]
