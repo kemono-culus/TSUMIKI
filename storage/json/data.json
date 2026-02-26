@@ -633,5 +633,31 @@
     ],
     "comment": "石や鉱石で出来た不思議な生き物です<br>石、銅、鉄、金、エメラルドの差分があります",
     "post_date": "2026-02-26"
+  },
+  {
+    "item_number": 46,
+    "item_id": "boat",
+    "item_name": "ボート",
+    "item_genre": "乗り物",
+    "genre_code": "vehicle",
+    "tags": [
+      "海",
+      "船"
+    ],
+    "comment": "上から見たボートです",
+    "post_date": "2026-02-26"
+  },
+  {
+    "item_number": 47,
+    "item_id": "pancake",
+    "item_name": "パンケーキ",
+    "item_genre": "食べ物",
+    "genre_code": "food",
+    "tags": [
+      "スイーツ",
+      "ホットケーキ"
+    ],
+    "comment": "厚めのパンケーキです<br>1枚ずつばらばらのデータが入っているので、好きなだけ重ねてください",
+    "post_date": "2026-02-26"
   }
 ]
