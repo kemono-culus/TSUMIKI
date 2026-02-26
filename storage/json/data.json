@@ -40,7 +40,7 @@
     "post_date": "2026-02-13"
   },
   {
-    "item_number": 3,
+    "item_number": 4,
     "item_id": "dice_edge",
     "item_name": "さいころ",
     "item_genre": "アイテム",
@@ -52,7 +52,7 @@
     "post_date": "2026-02-13"
   },
   {
-    "item_number": 4,
+    "item_number": 5,
     "item_id": "unko",
     "item_name": "うんこ",
     "item_genre": "くらし",
@@ -64,7 +64,7 @@
     "post_date": "2026-02-13"
   },
   {
-    "item_number": 5,
+    "item_number": 6,
     "item_id": "padlock",
     "item_name": "錠前",
     "item_genre": "くらし",
@@ -78,7 +78,7 @@
     "post_date": "2026-02-13"
   },
   {
-    "item_number": 6,
+    "item_number": 7,
     "item_id": "key",
     "item_name": "かぎ",
     "item_genre": "くらし",
@@ -92,7 +92,7 @@
     "post_date": "2026-02-13"
   },
   {
-    "item_number": 7,
+    "item_number": 8,
     "item_id": "door_brown",
     "item_name": "木のドア",
     "item_genre": "くらし",
@@ -107,7 +107,7 @@
     "post_date": "2026-02-14"
   },
   {
-    "item_number": 8,
+    "item_number": 9,
     "item_id": "door_green",
     "item_name": "緑のドア",
     "item_genre": "くらし",
@@ -122,7 +122,7 @@
     "post_date": "2026-02-14"
   },
   {
-    "item_number": 9,
+    "item_number": 10,
     "item_id": "door_pink",
     "item_name": "ピンクのドア",
     "item_genre": "くらし",
@@ -137,7 +137,7 @@
     "post_date": "2026-02-14"
   },
   {
-    "item_number": 10,
+    "item_number": 11,
     "item_id": "bone-in-meat",
     "item_name": "骨付き肉",
     "item_genre": "食べ物",
@@ -150,7 +150,7 @@
     "post_date": "2026-02-14"
   },
   {
-    "item_number": 11,
+    "item_number": 12,
     "item_id": "aim",
     "item_name": "照準",
     "item_genre": "記号・UI",
@@ -163,7 +163,7 @@
     "post_date": "2026-02-14"
   },
   {
-    "item_number": 12,
+    "item_number": 13,
     "item_id": "janken_rock",
     "item_name": "じゃんけん（ぐー）",
     "item_genre": "記号・UI",
@@ -177,7 +177,7 @@
     "post_date": "2026-02-14"
   },
   {
-    "item_number": 13,
+    "item_number": 14,
     "item_id": "janken_scissors",
     "item_name": "じゃんけん（ちょき）",
     "item_genre": "記号・UI",
@@ -191,7 +191,7 @@
     "post_date": "2026-02-14"
   },
   {
-    "item_number": 14,
+    "item_number": 15,
     "item_id": "janken_paper",
     "item_name": "じゃんけん（ぱー）",
     "item_genre": "記号・UI",
@@ -204,7 +204,7 @@
     "post_date": "2026-02-14"
   },
   {
-    "item_number": 15,
+    "item_number": 16,
     "item_id": "slime",
     "item_name": "スライム",
     "item_genre": "ファンタジー",
@@ -218,7 +218,7 @@
     "post_date": "2026-02-14"
   },
   {
-    "item_number": 16,
+    "item_number": 17,
     "item_id": "battle_ship",
     "item_name": "バトルシップ",
     "item_genre": "乗り物",
@@ -233,7 +233,7 @@
     "post_date": "2026-02-15"
   },
   {
-    "item_number": 17,
+    "item_number": 18,
     "item_id": "battle_ship2",
     "item_name": "バトルシップ２",
     "item_genre": "乗り物",
@@ -248,7 +248,7 @@
     "post_date": "2026-02-15"
   },
   {
-    "item_number": 18,
+    "item_number": 19,
     "item_id": "flooring",
     "item_name": "木の床",
     "item_genre": "建物・場所",
@@ -263,7 +263,7 @@
     "post_date": "2026-02-15"
   },
   {
-    "item_number": 19,
+    "item_number": 20,
     "item_id": "wood-tile",
     "item_name": "木のタイル",
     "item_genre": "建物・場所",
@@ -278,7 +278,7 @@
     "post_date": "2026-02-15"
   },
   {
-    "item_number": 20,
+    "item_number": 21,
     "item_id": "honey-bee",
     "item_name": "ミツバチ",
     "item_genre": "動物",
@@ -291,7 +291,7 @@
     "post_date": "2026-02-15"
   },
   {
-    "item_number": 21,
+    "item_number": 22,
     "item_id": "flower",
     "item_name": "お花",
     "item_genre": "自然",
@@ -305,7 +305,7 @@
     "post_date": "2026-02-15"
   },
   {
-    "item_number": 22,
+    "item_number": 23,
     "item_id": "flower2",
     "item_name": "お花２",
     "item_genre": "自然",
@@ -319,7 +319,7 @@
     "post_date": "2026-02-15"
   },
   {
-    "item_number": 23,
+    "item_number": 24,
     "item_id": "bomb",
     "item_name": "爆弾",
     "item_genre": "アイテム",
@@ -332,7 +332,7 @@
     "post_date": "2026-02-16"
   },
   {
-    "item_number": 24,
+    "item_number": 25,
     "item_id": "kunai",
     "item_name": "くない",
     "item_genre": "アイテム",
@@ -346,7 +346,7 @@
     "post_date": "2026-02-16"
   },
   {
-    "item_number": 25,
+    "item_number": 26,
     "item_id": "bullet",
     "item_name": "弾丸",
     "item_genre": "アイテム",
@@ -360,7 +360,7 @@
     "post_date": "2026-02-16"
   },
   {
-    "item_number": 26,
+    "item_number": 27,
     "item_id": "rifle-bullet",
     "item_name": "ライフル弾",
     "item_genre": "アイテム",
@@ -374,7 +374,7 @@
     "post_date": "2026-02-16"
   },
   {
-    "item_number": 27,
+    "item_number": 28,
     "item_id": "arrow",
     "item_name": "矢",
     "item_genre": "アイテム",
@@ -387,7 +387,7 @@
     "post_date": "2026-02-16"
   },
   {
-    "item_number": 28,
+    "item_number": 29,
     "item_id": "shuriken",
     "item_name": "手裏剣",
     "item_genre": "アイテム",
@@ -401,7 +401,7 @@
     "post_date": "2026-02-16"
   },
   {
-    "item_number": 29,
+    "item_number": 30,
     "item_id": "tatami",
     "item_name": "畳",
     "item_genre": "建物・場所",
@@ -417,7 +417,7 @@
     "post_date": "2026-02-17"
   },
   {
-    "item_number": 30,
+    "item_number": 31,
     "item_id": "cedar-stick",
     "item_name": "ひのきの棒",
     "item_genre": "自然",
@@ -431,7 +431,7 @@
     "post_date": "2026-02-17"
   },
   {
-    "item_number": 31,
+    "item_number": 32,
     "item_id": "potion_cure",
     "item_name": "治癒のポーション",
     "item_genre": "アイテム",
@@ -444,7 +444,7 @@
     "post_date": "2026-02-17"
   },
   {
-    "item_number": 32,
+    "item_number": 33,
     "item_id": "potion_poizon",
     "item_name": "毒のポーション",
     "item_genre": "アイテム",
@@ -458,7 +458,7 @@
     "post_date": "2026-02-17"
   },
   {
-    "item_number": 33,
+    "item_number": 34,
     "item_id": "riseball",
     "item_name": "おにぎり",
     "item_genre": "食べ物",
@@ -471,7 +471,7 @@
     "post_date": "2026-02-17"
   },
   {
-    "item_number": 34,
+    "item_number": 35,
     "item_id": "human",
     "item_name": "シンプルな人",
     "item_genre": "人",
@@ -485,7 +485,7 @@
     "post_date": "2026-02-17"
   },
   {
-    "item_number": 35,
+    "item_number": 36,
     "item_id": "cat-copter",
     "item_name": "ねここぷたー",
     "item_genre": "動物",
@@ -497,7 +497,7 @@
     "post_date": "2026-02-17"
   },
   {
-    "item_number": 36,
+    "item_number": 37,
     "item_id": "loading_circle_large",
     "item_name": "ローディング（まる）",
     "item_genre": "記号・UI",
@@ -510,7 +510,7 @@
     "post_date": "2026-02-17"
   },
   {
-    "item_number": 37,
+    "item_number": 38,
     "item_id": "loading_circle_small",
     "item_name": "ローディング（まる）",
     "item_genre": "記号・UI",
@@ -523,7 +523,7 @@
     "post_date": "2026-02-17"
   },
   {
-    "item_number": 38,
+    "item_number": 39,
     "item_id": "loading_square_large",
     "item_name": "ローディング（しかく）",
     "item_genre": "記号・UI",
@@ -536,7 +536,7 @@
     "post_date": "2026-02-17"
   },
   {
-    "item_number": 39,
+    "item_number": 40,
     "item_id": "loading_square_small",
     "item_name": "ローディング（しかく）",
     "item_genre": "記号・UI",
@@ -549,7 +549,7 @@
     "post_date": "2026-02-17"
   },
   {
-    "item_number": 40,
+    "item_number": 41,
     "item_id": "maru",
     "item_name": "まる",
     "item_genre": "記号・UI",
@@ -563,7 +563,7 @@
     "post_date": "2026-02-26"
   },
   {
-    "item_number": 41,
+    "item_number": 42,
     "item_id": "batsu",
     "item_name": "ばつ",
     "item_genre": "記号・UI",
@@ -577,7 +577,7 @@
     "post_date": "2026-02-26"
   },
   {
-    "item_number": 42,
+    "item_number": 43,
     "item_id": "plate_maru",
     "item_name": "まるの札",
     "item_genre": "アイテム",
@@ -591,7 +591,7 @@
     "post_date": "2026-02-26"
   },
   {
-    "item_number": 43,
+    "item_number": 44,
     "item_id": "plate_batsu",
     "item_name": "ばつの札",
     "item_genre": "アイテム",
@@ -605,7 +605,7 @@
     "post_date": "2026-02-26"
   },
   {
-    "item_number": 44,
+    "item_number": 45,
     "item_id": "light_bulb",
     "item_name": "電球",
     "item_genre": "くらし",
@@ -619,7 +619,7 @@
     "post_date": "2026-02-26"
   },
   {
-    "item_number": 45,
+    "item_number": 46,
     "item_id": "golem",
     "item_name": "ゴーレム",
     "item_genre": "ファンタジー",
@@ -635,7 +635,7 @@
     "post_date": "2026-02-26"
   },
   {
-    "item_number": 46,
+    "item_number": 47,
     "item_id": "boat",
     "item_name": "ボート",
     "item_genre": "乗り物",
@@ -648,7 +648,7 @@
     "post_date": "2026-02-26"
   },
   {
-    "item_number": 47,
+    "item_number": 48,
     "item_id": "pancake",
     "item_name": "パンケーキ",
     "item_genre": "食べ物",
@@ -661,7 +661,7 @@
     "post_date": "2026-02-26"
   },
   {
-    "item_number": 48,
+    "item_number": 49,
     "item_id": "button",
     "item_name": "ボタン",
     "item_genre": "アイテム",
@@ -672,5 +672,30 @@
     ],
     "comment": "押すと何かが起きそうなボタンです<br>押す前と押した後の差分付き",
     "post_date": "2026-02-26"
+  },
+  {
+    "item_number": 50,
+    "item_id": "cactus",
+    "item_name": "さぼてん",
+    "item_genre": "自然",
+    "genre_code": "nature",
+    "tags": [
+      "植物"
+    ],
+    "comment": "ウチワサボテンです<br>日本ではおうちの中で育てることが多いですね",
+    "post_date": "2026-02-27"
+  },
+  {
+    "item_number": 51,
+    "item_id": "grass",
+    "item_name": "草",
+    "item_genre": "自然",
+    "genre_code": "nature",
+    "tags": [
+      "マップチップ",
+      "植物"
+    ],
+    "comment": "草です<br>いろんな色を作ったので、並べたり重ねたりして草原を作ることが出来ます",
+    "post_date": "2026-02-27"
   }
 ]
