@@ -668,7 +668,8 @@
     "genre_code": "item",
     "tags": [
       "アクション",
-      "クイズ"
+      "クイズ",
+      "スイッチ"
     ],
     "comment": "押すと何かが起きそうなボタンです<br>押す前と押した後の差分付き",
     "post_date": "2026-02-26"
@@ -697,5 +698,73 @@
     ],
     "comment": "草です<br>いろんな色を作ったので、並べたり重ねたりして草原を作ることが出来ます",
     "post_date": "2026-02-27"
+  },
+  {
+    "item_number": 52,
+    "item_id": "bear",
+    "item_name": "くま",
+    "item_genre": "動物",
+    "genre_code": "animal",
+    "tags": [
+      "モンスター",
+      "熊"
+    ],
+    "comment": "可愛いくまです<br>両手を挙げて起こった差分付き",
+    "post_date": "2026-05-23"
+  },
+  {
+    "item_number": 53,
+    "item_id": "brave_sword",
+    "item_name": "勇者の剣",
+    "item_genre": "アイテム",
+    "genre_code": "item",
+    "tags": [
+      "RPG",
+      "バトル",
+      "武器"
+    ],
+    "comment": "かっこいい剣です",
+    "post_date": "2026-05-23"
+  },
+  {
+    "item_number": 54,
+    "item_id": "goblin",
+    "item_name": "ゴブリン",
+    "item_genre": "ファンタジー",
+    "genre_code": "fantasy",
+    "tags": [
+      "RPG",
+      "バトル",
+      "モンスター"
+    ],
+    "comment": "敵キャラの定番、ゴブリンです",
+    "post_date": "2026-05-23"
+  },
+  {
+    "item_number": 55,
+    "item_id": "rice",
+    "item_name": "ごはん",
+    "item_genre": "食べ物",
+    "genre_code": "food",
+    "tags": [
+      "食器",
+      "米"
+    ],
+    "comment": "お茶碗によそったご飯です<br>大盛り、並盛、お茶碗のみの差分付き",
+    "post_date": "2026-05-23"
+  },
+  {
+    "item_number": 56,
+    "item_id": "skeleton",
+    "item_name": "ガイコツ",
+    "item_genre": "ファンタジー",
+    "genre_code": "fantasy",
+    "tags": [
+      "RPG",
+      "バトル",
+      "モンスター"
+    ],
+    "comment": "ガイコツの海賊です",
+    "post_date": "2026-05-23"
   }
 ]
