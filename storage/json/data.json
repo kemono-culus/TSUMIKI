@@ -783,5 +783,18 @@
     ],
     "comment": "かっこいい拳銃です",
     "post_date": "2026-06-12"
+  },
+  {
+    "item_number": 58,
+    "item_id": "prairie",
+    "item_name": "草原",
+    "item_genre": "建物・場所",
+    "genre_code": "location",
+    "tags": [
+      "自然",
+      "背景"
+    ],
+    "comment": "日本でよく見る、山に囲まれた草原です",
+    "post_date": "2026-06-12"
   }
 ]
