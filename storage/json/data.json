@@ -352,6 +352,7 @@
     "item_genre": "アイテム",
     "genre_code": "item",
     "tags": [
+      "シューティング",
       "バトル",
       "銃",
       "武器"
@@ -366,6 +367,7 @@
     "item_genre": "アイテム",
     "genre_code": "item",
     "tags": [
+      "シューティング",
       "バトル",
       "銃",
       "武器"
@@ -766,5 +768,20 @@
     ],
     "comment": "ガイコツの海賊です",
     "post_date": "2026-05-23"
+  },
+  {
+    "item_number": 57,
+    "item_id": "pistol",
+    "item_name": "ピストル",
+    "item_genre": "アイテム",
+    "genre_code": "item",
+    "tags": [
+      "シューティング",
+      "バトル",
+      "銃",
+      "武器"
+    ],
+    "comment": "かっこいい拳銃です",
+    "post_date": "2026-06-12"
   }
 ]
