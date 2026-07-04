@@ -796,5 +796,71 @@
     ],
     "comment": "日本でよく見る、山に囲まれた草原です",
     "post_date": "2026-06-12"
+  },
+  {
+    "item_number": 59,
+    "item_id": "darts",
+    "item_name": "ダーツ",
+    "item_genre": "アイテム",
+    "genre_code": "item",
+    "tags": [
+      "シューティング"
+    ],
+    "comment": "遊びに使われる小さなダーツです<br>カラフルなバリエーションを用意しました",
+    "post_date": "2026-06-20"
+  },
+  {
+    "item_number": 60,
+    "item_id": "audience_chamber",
+    "item_name": "謁見の間（光）",
+    "item_genre": "建物・場所",
+    "genre_code": "location",
+    "tags": [
+      "RPG",
+      "背景"
+    ],
+    "comment": "偉い人とお話しするための部屋です",
+    "post_date": "2026-07-04"
+  },
+  {
+    "item_number": 61,
+    "item_id": "audience_chamber_dark",
+    "item_name": "謁見の間（闇）",
+    "item_genre": "建物・場所",
+    "genre_code": "location",
+    "tags": [
+      "RPG",
+      "背景"
+    ],
+    "comment": "悪い人とお話しするための部屋です<br>拳で解決することだってあります",
+    "post_date": "2026-07-04"
+  },
+  {
+    "item_number": 62,
+    "item_id": "fear_forest",
+    "item_name": "恐怖の森",
+    "item_genre": "建物・場所",
+    "genre_code": "location",
+    "tags": [
+      "RPG",
+      "自然",
+      "背景"
+    ],
+    "comment": "どんよりと暗い森です",
+    "post_date": "2026-07-04"
+  },
+  {
+    "item_number": 63,
+    "item_id": "demon_king",
+    "item_name": "魔王",
+    "item_genre": "ファンタジー",
+    "genre_code": "fantasy",
+    "tags": [
+      "RPG",
+      "バトル",
+      "モンスター"
+    ],
+    "comment": "悪魔たちの王様です<br>角のカーブがチャームポイント",
+    "post_date": "2026-07-04"
   }
 ]
