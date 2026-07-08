@@ -888,5 +888,83 @@
     ],
     "comment": "槍と盾を持った騎士です<br>つよそう",
     "post_date": "2026-07-08"
+  },
+  {
+    "item_number": 66,
+    "item_id": "arrow_keys_black",
+    "item_name": "十字キー（黒）",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "キーボード",
+      "移動"
+    ],
+    "comment": "上下左右の入力に使えるボタンです",
+    "post_date": "2026-07-08"
+  },
+  {
+    "item_number": 67,
+    "item_id": "arrow_keys_white",
+    "item_name": "十字キー（白）",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "キーボード",
+      "移動"
+    ],
+    "comment": "上下左右の入力に使えるボタンです",
+    "post_date": "2026-07-08"
+  },
+  {
+    "item_number": 68,
+    "item_id": "enter_key_black",
+    "item_name": "エンターキー（黒）",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "キーボード",
+      "決定"
+    ],
+    "comment": "決定や改行に使えるボタンです",
+    "post_date": "2026-07-08"
+  },
+  {
+    "item_number": 69,
+    "item_id": "enter_key_white",
+    "item_name": "エンターキー（白）",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "キーボード",
+      "決定"
+    ],
+    "comment": "決定や改行に使えるボタンです",
+    "post_date": "2026-07-08"
+  },
+  {
+    "item_number": 70,
+    "item_id": "space_key_black",
+    "item_name": "スペースキー（黒）",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "キーボード",
+      "決定"
+    ],
+    "comment": "決定や連打に使えるボタンです",
+    "post_date": "2026-07-08"
+  },
+  {
+    "item_number": 71,
+    "item_id": "space_key_white",
+    "item_name": "スペースキー（白）",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "キーボード",
+      "決定"
+    ],
+    "comment": "決定や連打に使えるボタンです",
+    "post_date": "2026-07-08"
   }
 ]
