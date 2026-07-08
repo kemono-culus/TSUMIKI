@@ -862,5 +862,31 @@
     ],
     "comment": "悪魔たちの王様です<br>角のカーブがチャームポイント",
     "post_date": "2026-07-04"
+  },
+  {
+    "item_number": 64,
+    "item_id": "king",
+    "item_name": "王様",
+    "item_genre": "人",
+    "genre_code": "human",
+    "tags": [
+      "RPG",
+      "バトル"
+    ],
+    "comment": "恰幅の良い王様です<br>人間の国ではとても偉い人です",
+    "post_date": "2026-07-08"
+  },
+  {
+    "item_number": 65,
+    "item_id": "knight",
+    "item_name": "騎士",
+    "item_genre": "人",
+    "genre_code": "human",
+    "tags": [
+      "RPG",
+      "バトル"
+    ],
+    "comment": "槍と盾を持った騎士です<br>つよそう",
+    "post_date": "2026-07-08"
   }
 ]
