@@ -966,5 +966,157 @@
     ],
     "comment": "決定や連打に使えるボタンです",
     "post_date": "2026-07-08"
+  },
+  {
+    "item_number": 72,
+    "item_id": "microphone",
+    "item_name": "マイク",
+    "item_genre": "アイテム",
+    "genre_code": "item",
+    "tags": [
+      "デバイス",
+      "音声",
+      "歌",
+      "声"
+    ],
+    "comment": "音声を拾ってくれる入力デバイスです",
+    "post_date": "2026-07-09"
+  },
+  {
+    "item_number": 73,
+    "item_id": "witch_black",
+    "item_name": "黒魔女",
+    "item_genre": "人",
+    "genre_code": "human",
+    "tags": [
+      "RPG",
+      "バトル"
+    ],
+    "comment": "黒い服を着た魔女です",
+    "post_date": "2026-07-09"
+  },
+  {
+    "item_number": 74,
+    "item_id": "witch_white",
+    "item_name": "白魔女",
+    "item_genre": "人",
+    "genre_code": "human",
+    "tags": [
+      "RPG",
+      "バトル"
+    ],
+    "comment": "白い服を着た魔女です",
+    "post_date": "2026-07-09"
+  },
+  {
+    "item_number": 75,
+    "item_id": "dwarf",
+    "item_name": "ドワーフ",
+    "item_genre": "人",
+    "genre_code": "human",
+    "tags": [
+      "RPG",
+      "バトル"
+    ],
+    "comment": "鍛冶とか得意そうな厳つい男です",
+    "post_date": "2026-07-09"
+  },
+  {
+    "item_number": 76,
+    "item_id": "french_bread",
+    "item_name": "フランスパン",
+    "item_genre": "食べ物",
+    "genre_code": "food",
+    "tags": [
+      "パン"
+    ],
+    "comment": "細長いパンです<br>とても硬いので振り回せば武器になります",
+    "post_date": "2026-07-09"
+  },
+  {
+    "item_number": 77,
+    "item_id": "white_bread",
+    "item_name": "食パン",
+    "item_genre": "食べ物",
+    "genre_code": "food",
+    "tags": [
+      "パン"
+    ],
+    "comment": "日本でよく食べられる白いパンです",
+    "post_date": "2026-07-09"
+  },
+  {
+    "item_number": 78,
+    "item_id": "shortcake",
+    "item_name": "ショートケーキ",
+    "item_genre": "食べ物",
+    "genre_code": "food",
+    "tags": [
+      "スイーツ"
+    ],
+    "comment": "イチゴの乗ったケーキです",
+    "post_date": "2026-07-09"
+  },
+  {
+    "item_number": 79,
+    "item_id": "sun",
+    "item_name": "太陽",
+    "item_genre": "自然",
+    "genre_code": "nature",
+    "tags": [
+      "天体"
+    ],
+    "comment": "お日様です",
+    "post_date": "2026-07-09"
+  },
+  {
+    "item_number": 80,
+    "item_id": "full_moon",
+    "item_name": "満月",
+    "item_genre": "自然",
+    "genre_code": "nature",
+    "tags": [
+      "月",
+      "天体"
+    ],
+    "comment": "まんまるの月です",
+    "post_date": "2026-07-09"
+  },
+  {
+    "item_number": 81,
+    "item_id": "crescent_moon",
+    "item_name": "三日月",
+    "item_genre": "自然",
+    "genre_code": "nature",
+    "tags": [
+      "月",
+      "天体"
+    ],
+    "comment": "6割くらい欠けた月です",
+    "post_date": "2026-07-09"
+  },
+  {
+    "item_number": 82,
+    "item_id": "car",
+    "item_name": "軽自動車",
+    "item_genre": "乗り物",
+    "genre_code": "vehicle",
+    "tags": [
+      "車"
+    ],
+    "comment": "赤い軽自動車です",
+    "post_date": "2026-07-09"
+  },
+  {
+    "item_number": 83,
+    "item_id": "slippery_penguin",
+    "item_name": "すべりーペンギン",
+    "item_genre": "動物",
+    "genre_code": "animal",
+    "tags": [
+      "鳥"
+    ],
+    "comment": "よく滑るペンギンです",
+    "post_date": "2026-07-09"
   }
 ]
