@@ -1118,5 +1118,17 @@
     ],
     "comment": "よく滑るペンギンです",
     "post_date": "2026-07-09"
+  },
+  {
+    "item_number": 84,
+    "item_id": "fairy",
+    "item_name": "妖精",
+    "item_genre": "ファンタジー",
+    "genre_code": "fantasy",
+    "tags": [
+      "RPG"
+    ],
+    "comment": "かわいい妖精さんです<br>5種類の色を用意しました",
+    "post_date": "2026-07-09"
   }
 ]
