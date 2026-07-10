@@ -1102,6 +1102,7 @@
     "item_genre": "乗り物",
     "genre_code": "vehicle",
     "tags": [
+      "レース",
       "車"
     ],
     "comment": "赤い軽自動車です",
@@ -1130,5 +1131,83 @@
     ],
     "comment": "かわいい妖精さんです<br>5種類の色を用意しました",
     "post_date": "2026-07-09"
+  },
+  {
+    "item_number": 0,
+    "item_id": "desert",
+    "item_name": "砂漠",
+    "item_genre": "建物・場所",
+    "genre_code": "location",
+    "tags": [
+      "背景"
+    ],
+    "comment": "砂でいっぱいの土地です<br>朝、夕、夜の差分があります",
+    "post_date": "2026-07-10"
+  },
+  {
+    "item_number": 0,
+    "item_id": "mushroom",
+    "item_name": "きのこ",
+    "item_genre": "食べ物",
+    "genre_code": "food",
+    "tags": [
+      "菌類",
+      "野菜"
+    ],
+    "comment": "食べられそうなきのこです",
+    "post_date": "2026-07-10"
+  },
+  {
+    "item_number": 0,
+    "item_id": "poison_mushroom",
+    "item_name": "毒キノコ",
+    "item_genre": "食べ物",
+    "genre_code": "food",
+    "tags": [
+      "菌類",
+      "毒",
+      "野菜"
+    ],
+    "comment": "食べてはいけなそうなきのこです",
+    "post_date": "2026-07-10"
+  },
+  {
+    "item_number": 0,
+    "item_id": "peach",
+    "item_name": "もも",
+    "item_genre": "食べ物",
+    "genre_code": "food",
+    "tags": [
+      "果物"
+    ],
+    "comment": "健康にいい果物です<br>川に流すと不思議な音が鳴ります",
+    "post_date": "2026-07-10"
+  },
+  {
+    "item_number": 0,
+    "item_id": "ufo",
+    "item_name": "UFO",
+    "item_genre": "乗り物",
+    "genre_code": "vehicle",
+    "tags": [
+      "SF",
+      "シューティング",
+      "バトル"
+    ],
+    "comment": "未確認飛行物体です",
+    "post_date": "2026-07-10"
+  },
+  {
+    "item_number": 0,
+    "item_id": "handle",
+    "item_name": "ハンドル",
+    "item_genre": "乗り物",
+    "genre_code": "vehicle",
+    "tags": [
+      "レース",
+      "車"
+    ],
+    "comment": "車の進む方向を操作するものです",
+    "post_date": "2026-07-10"
   }
 ]
