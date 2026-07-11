@@ -1299,5 +1299,80 @@
     ],
     "comment": "レース用のとっても速い車です",
     "post_date": "2026-07-10"
+  },
+  {
+    "item_number": 98,
+    "item_id": "frying_pan1",
+    "item_name": "フライパン",
+    "item_genre": "くらし",
+    "genre_code": "life",
+    "tags": [
+      "武器",
+      "料理"
+    ],
+    "comment": "上から見たフライパンです",
+    "post_date": "2026-07-11"
+  },
+  {
+    "item_number": 99,
+    "item_id": "frying_pan2",
+    "item_name": "フライパン2",
+    "item_genre": "くらし",
+    "genre_code": "life",
+    "tags": [
+      "武器",
+      "料理"
+    ],
+    "comment": "横から見たフライパンです",
+    "post_date": "2026-07-11"
+  },
+  {
+    "item_number": 100,
+    "item_id": "tree_green",
+    "item_name": "みどりの木",
+    "item_genre": "自然",
+    "genre_code": "nature",
+    "tags": [
+      "木"
+    ],
+    "comment": "みどりの葉っぱをつけた木です",
+    "post_date": "2026-07-11"
+  },
+  {
+    "item_number": 101,
+    "item_id": "tree_yellow",
+    "item_name": "きいろの木",
+    "item_genre": "自然",
+    "genre_code": "nature",
+    "tags": [
+      "木"
+    ],
+    "comment": "黄葉した葉っぱをつけた木です",
+    "post_date": "2026-07-11"
+  },
+  {
+    "item_number": 102,
+    "item_id": "tree_pink",
+    "item_name": "ピンクの木",
+    "item_genre": "自然",
+    "genre_code": "nature",
+    "tags": [
+      "花",
+      "木"
+    ],
+    "comment": "桜っぽい見た目の木です",
+    "post_date": "2026-07-11"
+  },
+  {
+    "item_number": 103,
+    "item_id": "umbrella",
+    "item_name": "傘",
+    "item_genre": "くらし",
+    "genre_code": "life",
+    "tags": [
+      "雨"
+    ],
+    "comment": "雨避けに使う道具です",
+    "post_date": "2026-07-11"
   }
 ]
