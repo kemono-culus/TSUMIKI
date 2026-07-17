@@ -1374,5 +1374,17 @@
     ],
     "comment": "雨避けに使う道具です",
     "post_date": "2026-07-11"
+  },
+  {
+    "item_number": 104,
+    "item_id": "tree2",
+    "item_name": "木２",
+    "item_genre": "自然",
+    "genre_code": "nature",
+    "tags": [
+      "木"
+    ],
+    "comment": "針葉樹っぽいトゲトゲした木です",
+    "post_date": "2026-07-17"
   }
 ]
