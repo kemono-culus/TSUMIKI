@@ -1370,7 +1370,8 @@
     "item_genre": "くらし",
     "genre_code": "life",
     "tags": [
-      "雨"
+      "雨",
+      "雨具"
     ],
     "comment": "雨避けに使う道具です",
     "post_date": "2026-07-11"
@@ -1386,5 +1387,43 @@
     ],
     "comment": "針葉樹っぽいトゲトゲした木です",
     "post_date": "2026-07-17"
+  },
+  {
+    "item_number": 105,
+    "item_id": "priest",
+    "item_name": "神父",
+    "item_genre": "人",
+    "genre_code": "human",
+    "tags": [
+      "RPG"
+    ],
+    "comment": "優しそうな神父さんです<br>飾りが多い人は偉い人なんだそうです",
+    "post_date": "2026-07-18"
+  },
+  {
+    "item_number": 106,
+    "item_id": "soldier",
+    "item_name": "兵士",
+    "item_genre": "人",
+    "genre_code": "human",
+    "tags": [
+      "RPG",
+      "バトル"
+    ],
+    "comment": "どこにでも居てくれる戦う人です",
+    "post_date": "2026-07-18"
+  },
+  {
+    "item_number": 107,
+    "item_id": "ninja",
+    "item_name": "忍者",
+    "item_genre": "人",
+    "genre_code": "human",
+    "tags": [
+      "RPG",
+      "バトル"
+    ],
+    "comment": "潜入と諜報のエキスパートです<br>ゲームではあまり忍べてないことが多い気がします",
+    "post_date": "2026-07-18"
   }
 ]
