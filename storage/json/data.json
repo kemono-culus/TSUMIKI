@@ -1423,7 +1423,69 @@
       "RPG",
       "バトル"
     ],
-    "comment": "潜入と諜報のエキスパートです<br>ゲームではあまり忍べてないことが多い気がします",
+    "comment": "潜入と諜報のエキスパートです<br>最近はあまり忍べてない気がします",
     "post_date": "2026-07-18"
+  },
+  {
+    "item_number": 0,
+    "item_id": "lantern",
+    "item_name": "ちょうちん",
+    "item_genre": "くらし",
+    "genre_code": "life",
+    "tags": [
+      "祭り",
+      "照明",
+      "装飾"
+    ],
+    "comment": "お祭りなんかで見掛ける伝統的な明かりです<br>「祭」の文字入り差分付き",
+    "post_date": "2026-07-19"
+  },
+  {
+    "item_number": 0,
+    "item_id": "ballpoint_pen",
+    "item_name": "ボールペン",
+    "item_genre": "くらし",
+    "genre_code": "life",
+    "tags": [
+      "筆記用具"
+    ],
+    "comment": "先端のボールを転がしてインクをこすり付けるタイプのペンです",
+    "post_date": "2026-07-19"
+  },
+  {
+    "item_number": 0,
+    "item_id": "highlighter",
+    "item_name": "マーカーペン",
+    "item_genre": "くらし",
+    "genre_code": "life",
+    "tags": [
+      "筆記用具"
+    ],
+    "comment": "繊維質な先端にインクを染込ませてこすり付けるタイプのペンです",
+    "post_date": "2026-07-19"
+  },
+  {
+    "item_number": 0,
+    "item_id": "calligraphy_brush",
+    "item_name": "毛筆",
+    "item_genre": "くらし",
+    "genre_code": "life",
+    "tags": [
+      "筆記用具"
+    ],
+    "comment": "動物の毛で作った先端に顔料を染込ませてこすり付けるタイプの筆です",
+    "post_date": "2026-07-19"
+  },
+  {
+    "item_number": 0,
+    "item_id": "fountain_pen",
+    "item_name": "万年筆",
+    "item_genre": "くらし",
+    "genre_code": "life",
+    "tags": [
+      "筆記用具"
+    ],
+    "comment": "勤続で出来た先端に毛細管現象でインクを蓄えてこすり付けるタイプのペンです",
+    "post_date": "2026-07-19"
   }
 ]
