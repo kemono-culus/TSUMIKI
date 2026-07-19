@@ -1427,7 +1427,7 @@
     "post_date": "2026-07-18"
   },
   {
-    "item_number": 0,
+    "item_number": 108,
     "item_id": "lantern",
     "item_name": "ちょうちん",
     "item_genre": "くらし",
@@ -1441,7 +1441,7 @@
     "post_date": "2026-07-19"
   },
   {
-    "item_number": 0,
+    "item_number": 109,
     "item_id": "ballpoint_pen",
     "item_name": "ボールペン",
     "item_genre": "くらし",
@@ -1453,7 +1453,7 @@
     "post_date": "2026-07-19"
   },
   {
-    "item_number": 0,
+    "item_number": 110,
     "item_id": "highlighter",
     "item_name": "マーカーペン",
     "item_genre": "くらし",
@@ -1465,7 +1465,7 @@
     "post_date": "2026-07-19"
   },
   {
-    "item_number": 0,
+    "item_number": 111,
     "item_id": "calligraphy_brush",
     "item_name": "毛筆",
     "item_genre": "くらし",
@@ -1477,7 +1477,7 @@
     "post_date": "2026-07-19"
   },
   {
-    "item_number": 0,
+    "item_number": 112,
     "item_id": "fountain_pen",
     "item_name": "万年筆",
     "item_genre": "くらし",
@@ -1487,5 +1487,110 @@
     ],
     "comment": "金属で出来た先端に毛細管現象でインクを蓄えてこすり付けるタイプのペンです",
     "post_date": "2026-07-19"
+  },
+  {
+    "item_number": 113,
+    "item_id": "digital_number_black",
+    "item_name": "デジタル数字（ブラック）",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "デジタル",
+      "数字"
+    ],
+    "comment": "デジタルな数字を0から9までそろえました",
+    "post_date": "2026-07-20"
+  },
+  {
+    "item_number": 114,
+    "item_id": "digital_number_gray",
+    "item_name": "デジタル数字（グレー）",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "デジタル",
+      "数字"
+    ],
+    "comment": "デジタルな数字を0から9までそろえました",
+    "post_date": "2026-07-20"
+  },
+  {
+    "item_number": 115,
+    "item_id": "digital_number_green",
+    "item_name": "デジタル数字（グリーン）",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "デジタル",
+      "数字"
+    ],
+    "comment": "デジタルな数字を0から9までそろえました",
+    "post_date": "2026-07-20"
+  },
+  {
+    "item_number": 116,
+    "item_id": "digital_number_red",
+    "item_name": "デジタル数字（レッド）",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "デジタル",
+      "数字"
+    ],
+    "comment": "デジタルな数字を0から9までそろえました",
+    "post_date": "2026-07-20"
+  },
+  {
+    "item_number": 117,
+    "item_id": "digital_number_white",
+    "item_name": "デジタル数字（ホワイト）",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "デジタル",
+      "数字"
+    ],
+    "comment": "デジタルな数字を0から9までそろえました",
+    "post_date": "2026-07-20"
+  },
+  {
+    "item_number": 118,
+    "item_id": "clouds",
+    "item_name": "雲",
+    "item_genre": "自然",
+    "genre_code": "nature",
+    "tags": [
+      "天気"
+    ],
+    "comment": "ふわふわした雲です<br>白、黒、黄色の三色があります",
+    "post_date": "2026-07-20"
+  },
+  {
+    "item_number": 119,
+    "item_id": "radial",
+    "item_name": "めでたい模様",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "パターン",
+      "背景",
+      "模様"
+    ],
+    "comment": "おめでたい時に使える放射状の模様です",
+    "post_date": "2026-07-20"
+  },
+  {
+    "item_number": 120,
+    "item_id": "wavy_lattice",
+    "item_name": "ふにゃグリッド模様",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "パターン",
+      "背景",
+      "模様"
+    ],
+    "comment": "波のように歪んだ格子模様です<br>前後感覚が曖昧になりますね",
+    "post_date": "2026-07-20"
   }
 ]
