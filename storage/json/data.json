@@ -1592,5 +1592,81 @@
     ],
     "comment": "波のように歪んだ格子模様です<br>前後感覚が曖昧になりますね",
     "post_date": "2026-07-20"
+  },
+  {
+    "item_number": 121,
+    "item_id": "jiangshi",
+    "item_name": "キョンシー",
+    "item_genre": "ファンタジー",
+    "genre_code": "fantasy",
+    "tags": [
+      "RPG",
+      "バトル",
+      "モンスター"
+    ],
+    "comment": "道教のゾンビ出来な存在です<br>すごい力もちなんだそう",
+    "post_date": "2026-07-20"
+  },
+  {
+    "item_number": 122,
+    "item_id": "little_demon",
+    "item_name": "悪魔",
+    "item_genre": "ファンタジー",
+    "genre_code": "fantasy",
+    "tags": [
+      "RPG",
+      "バトル",
+      "モンスター"
+    ],
+    "comment": "小さな悪魔です",
+    "post_date": "2026-07-20"
+  },
+  {
+    "item_number": 123,
+    "item_id": "smash-enaga4",
+    "item_name": "スマエナガ4",
+    "item_genre": "動物",
+    "genre_code": "animal",
+    "tags": [
+      "格闘"
+    ],
+    "comment": "動けるタイプのシマエナガ<br>←＋↓＋B",
+    "post_date": "2026-07-20"
+  },
+  {
+    "item_number": 124,
+    "item_id": "smash-enaga3",
+    "item_name": "スマエナガ3",
+    "item_genre": "動物",
+    "genre_code": "animal",
+    "tags": [
+      "格闘"
+    ],
+    "comment": "動けるタイプのシマエナガ<br>↓長押し",
+    "post_date": "2026-07-20"
+  },
+  {
+    "item_number": 125,
+    "item_id": "smash-enaga2",
+    "item_name": "スマエナガ2",
+    "item_genre": "動物",
+    "genre_code": "animal",
+    "tags": [
+      "格闘"
+    ],
+    "comment": "動けるタイプのシマエナガ<br>←＋B",
+    "post_date": "2026-07-20"
+  },
+  {
+    "item_number": 126,
+    "item_id": "smash-enaga1",
+    "item_name": "スマエナガ1",
+    "item_genre": "動物",
+    "genre_code": "animal",
+    "tags": [
+      "格闘"
+    ],
+    "comment": "動けるタイプのシマエナガ<br>↑単押し",
+    "post_date": "2026-07-20"
   }
 ]
