@@ -1127,7 +1127,8 @@
     "item_genre": "ファンタジー",
     "genre_code": "fantasy",
     "tags": [
-      "RPG"
+      "RPG",
+      "魔法"
     ],
     "comment": "かわいい妖精さんです<br>5種類の色を用意しました",
     "post_date": "2026-07-09"
@@ -1447,6 +1448,7 @@
     "item_genre": "くらし",
     "genre_code": "life",
     "tags": [
+      "ペン",
       "筆記用具"
     ],
     "comment": "先端のボールを転がしてインクをこすり付けるタイプのペンです",
@@ -1459,6 +1461,7 @@
     "item_genre": "くらし",
     "genre_code": "life",
     "tags": [
+      "ペン",
       "筆記用具"
     ],
     "comment": "繊維質な先端にインクを染込ませてこすり付けるタイプのペンです",
@@ -1471,6 +1474,7 @@
     "item_genre": "くらし",
     "genre_code": "life",
     "tags": [
+      "ペン",
       "筆記用具"
     ],
     "comment": "動物の毛で作った先端に顔料を染込ませてこすり付けるタイプの筆です",
@@ -1483,6 +1487,7 @@
     "item_genre": "くらし",
     "genre_code": "life",
     "tags": [
+      "ペン",
       "筆記用具"
     ],
     "comment": "金属で出来た先端に毛細管現象でインクを蓄えてこすり付けるタイプのペンです",
@@ -1628,7 +1633,8 @@
     "item_genre": "動物",
     "genre_code": "animal",
     "tags": [
-      "格闘"
+      "格闘",
+      "鳥"
     ],
     "comment": "動けるタイプのシマエナガ<br>←＋↓＋B",
     "post_date": "2026-07-20"
@@ -1640,7 +1646,8 @@
     "item_genre": "動物",
     "genre_code": "animal",
     "tags": [
-      "格闘"
+      "格闘",
+      "鳥"
     ],
     "comment": "動けるタイプのシマエナガ<br>↓長押し",
     "post_date": "2026-07-20"
@@ -1652,7 +1659,8 @@
     "item_genre": "動物",
     "genre_code": "animal",
     "tags": [
-      "格闘"
+      "格闘",
+      "鳥"
     ],
     "comment": "動けるタイプのシマエナガ<br>←＋B",
     "post_date": "2026-07-20"
@@ -1664,9 +1672,39 @@
     "item_genre": "動物",
     "genre_code": "animal",
     "tags": [
-      "格闘"
+      "格闘",
+      "鳥"
     ],
     "comment": "動けるタイプのシマエナガ<br>↑単押し",
     "post_date": "2026-07-20"
+  },
+  {
+    "item_number": 0,
+    "item_id": "mimic",
+    "item_name": "ミミック",
+    "item_genre": "ファンタジー",
+    "genre_code": "fantasy",
+    "tags": [
+      "RPG",
+      "バトル",
+      "モンスター"
+    ],
+    "comment": "宝箱に擬態して人を襲う魔物です",
+    "post_date": "2026-07-21"
+  },
+  {
+    "item_number": 0,
+    "item_id": "treasure_chest",
+    "item_name": "宝箱",
+    "item_genre": "くらし",
+    "genre_code": "life",
+    "tags": [
+      "RPG",
+      "脱出",
+      "探索",
+      "冒険"
+    ],
+    "comment": "大事なものを入れておく箱です",
+    "post_date": "2026-07-21"
   }
 ]
