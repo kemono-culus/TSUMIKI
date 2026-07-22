@@ -1679,7 +1679,7 @@
     "post_date": "2026-07-20"
   },
   {
-    "item_number": 0,
+    "item_number": 127,
     "item_id": "mimic",
     "item_name": "ミミック",
     "item_genre": "ファンタジー",
@@ -1693,7 +1693,7 @@
     "post_date": "2026-07-21"
   },
   {
-    "item_number": 0,
+    "item_number": 128,
     "item_id": "treasure_chest",
     "item_name": "宝箱",
     "item_genre": "くらし",
@@ -1706,5 +1706,18 @@
     ],
     "comment": "大事なものを入れておく箱です",
     "post_date": "2026-07-21"
+  },
+  {
+    "item_number": 129,
+    "item_id": "unicycle",
+    "item_name": "一輪車",
+    "item_genre": "乗り物",
+    "genre_code": "vehicle",
+    "tags": [
+      "レース",
+      "車"
+    ],
+    "comment": "乗って遊べる一輪車です<br>カラバリとペダルを回すアニメーション付き",
+    "post_date": "2026-07-23"
   }
 ]
