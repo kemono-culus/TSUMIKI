@@ -2050,5 +2050,29 @@
     ],
     "comment": "魔法とか使えそうなステッキです",
     "post_date": "2026-10-12"
+  },
+  {
+    "item_number": 156,
+    "item_id": "japanese-style_room",
+    "item_name": "和室",
+    "item_genre": "建物・場所",
+    "genre_code": "location",
+    "tags": [
+      "家",
+      "内装",
+      "和室"
+    ],
+    "comment": "畳敷きの和室です",
+    "post_date": "2026-10-13"
+  },
+  {
+    "item_number": 157,
+    "item_id": "building",
+    "item_name": "ビル",
+    "item_genre": "建物・場所",
+    "genre_code": "location",
+    "tags": [],
+    "comment": "よく見るタイプのビルです<br>１階にコンビニとかが入ります",
+    "post_date": "2026-10-13"
   }
 ]
