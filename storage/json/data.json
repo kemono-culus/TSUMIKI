@@ -1941,5 +1941,114 @@
     ],
     "comment": "四角い魚です",
     "post_date": "2026-07-25"
+  },
+  {
+    "item_number": 148,
+    "item_id": "will-o'-the-wisp",
+    "item_name": "鬼火",
+    "item_genre": "ファンタジー",
+    "genre_code": "fantasy",
+    "tags": [
+      "RPG",
+      "バトル",
+      "ハロウィン",
+      "モンスター"
+    ],
+    "comment": "火の玉の妖怪です<br>赤と青の二色があります",
+    "post_date": "2026-10-12"
+  },
+  {
+    "item_number": 149,
+    "item_id": "wine_bottle",
+    "item_name": "ワインボトル",
+    "item_genre": "食べ物",
+    "genre_code": "food",
+    "tags": [
+      "お酒",
+      "飲み物"
+    ],
+    "comment": "ワインが入ってそうな瓶です",
+    "post_date": "2026-10-12"
+  },
+  {
+    "item_number": 150,
+    "item_id": "wine_glass",
+    "item_name": "ワイングラス",
+    "item_genre": "食べ物",
+    "genre_code": "food",
+    "tags": [
+      "お酒",
+      "飲み物"
+    ],
+    "comment": "ワインの入ったグラスです<br>赤、白、空っぽの差分があります",
+    "post_date": "2026-10-12"
+  },
+  {
+    "item_number": 151,
+    "item_id": "traffic_cone",
+    "item_name": "三角コーン",
+    "item_genre": "くらし",
+    "genre_code": "life",
+    "tags": [
+      "工事",
+      "装飾",
+      "置物"
+    ],
+    "comment": "危ない場所を区切ったりする設置物です",
+    "post_date": "2026-10-12"
+  },
+  {
+    "item_number": 152,
+    "item_id": "wooden_shield",
+    "item_name": "木の盾",
+    "item_genre": "アイテム",
+    "genre_code": "item",
+    "tags": [
+      "RPG",
+      "バトル",
+      "防具"
+    ],
+    "comment": "木で出来た盾です<br>しなやかで意外と丈夫",
+    "post_date": "2026-10-12"
+  },
+  {
+    "item_number": 153,
+    "item_id": "megaphone",
+    "item_name": "メガホン",
+    "item_genre": "くらし",
+    "genre_code": "life",
+    "tags": [
+      "機械"
+    ],
+    "comment": "声を大きくしてくれる機械です",
+    "post_date": "2026-10-12"
+  },
+  {
+    "item_number": 154,
+    "item_id": "battle_axe",
+    "item_name": "バトルアックス",
+    "item_genre": "アイテム",
+    "genre_code": "item",
+    "tags": [
+      "RPG",
+      "バトル",
+      "武器"
+    ],
+    "comment": "両刃の斧です<br>木を切るのには向かないかも",
+    "post_date": "2026-10-12"
+  },
+  {
+    "item_number": 155,
+    "item_id": "magic_wand",
+    "item_name": "魔法のステッキ",
+    "item_genre": "アイテム",
+    "genre_code": "item",
+    "tags": [
+      "RPG",
+      "シューティング",
+      "魔法"
+    ],
+    "comment": "魔法とか使えそうなステッキです",
+    "post_date": "2026-10-12"
   }
 ]
