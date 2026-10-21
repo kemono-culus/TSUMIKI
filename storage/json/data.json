@@ -2071,8 +2071,101 @@
     "item_name": "ビル",
     "item_genre": "建物・場所",
     "genre_code": "location",
-    "tags": [],
+    "tags": [
+      "家",
+      "外観"
+    ],
     "comment": "よく見るタイプのビルです<br>１階にコンビニとかが入ります",
     "post_date": "2026-10-13"
+  },
+  {
+    "item_number": 158,
+    "item_id": "square",
+    "item_name": "サイズサンプル",
+    "item_genre": "記号・UI",
+    "genre_code": "ui",
+    "tags": [
+      "図形"
+    ],
+    "comment": "色んな大きさの四角形<br>スプライトのサイズ調整に便利かも",
+    "post_date": "2026-10-21"
+  },
+  {
+    "item_number": 159,
+    "item_id": "train",
+    "item_name": "汽車",
+    "item_genre": "乗り物",
+    "genre_code": "vehicle",
+    "tags": [
+      "汽車",
+      "列車"
+    ],
+    "comment": "蒸気の力で走る乗り物です",
+    "post_date": "2026-10-21"
+  },
+  {
+    "item_number": 160,
+    "item_id": "freight_car",
+    "item_name": "貨物車",
+    "item_genre": "乗り物",
+    "genre_code": "vehicle",
+    "tags": [
+      "汽車",
+      "列車"
+    ],
+    "comment": "たくさんの荷物を詰める列車です<br>石炭を満載しています",
+    "post_date": "2026-10-21"
+  },
+  {
+    "item_number": 161,
+    "item_id": "empty_freight_car",
+    "item_name": "貨物車（空）",
+    "item_genre": "乗り物",
+    "genre_code": "vehicle",
+    "tags": [
+      "汽車",
+      "列車"
+    ],
+    "comment": "たくさんの荷物を詰める列車です<br>いろんなものを乗せてみましょう",
+    "post_date": "2026-10-21"
+  },
+  {
+    "item_number": 162,
+    "item_id": "passenger_car",
+    "item_name": "客車",
+    "item_genre": "乗り物",
+    "genre_code": "vehicle",
+    "tags": [
+      "汽車",
+      "列車"
+    ],
+    "comment": "お客さんが乗り込む列車です",
+    "post_date": "2026-10-21"
+  },
+  {
+    "item_number": 163,
+    "item_id": "last_passenger_car",
+    "item_name": "客車（最後尾）",
+    "item_genre": "乗り物",
+    "genre_code": "vehicle",
+    "tags": [
+      "汽車",
+      "列車"
+    ],
+    "comment": "お客さんが乗り込む列車です<br>半外に出て風に当たることが出来ます",
+    "post_date": "2026-10-21"
+  },
+  {
+    "item_number": 164,
+    "item_id": "ordinary_house",
+    "item_name": "ふつうの家",
+    "item_genre": "建物・場所",
+    "genre_code": "location",
+    "tags": [
+      "家",
+      "外観"
+    ],
+    "comment": "オレンジの屋根のおうちです",
+    "post_date": "2026-10-21"
   }
 ]
