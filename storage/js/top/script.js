@@ -5,6 +5,7 @@
 const ITEMS_PER_LOAD = 20;  // 1回当たりの読込み件数
 
 let items = [];       // JSONの値を保持
+let genre = [];       // JSONの値を保持
 let currentIndex = 0; // 現在の読み込み件数を保持
 
 // 画像素材を表示する（20件ずつ）
@@ -32,11 +33,11 @@ function renderNextItems() {
             </a>
             <p class="item_comment">${item.comment}</p>
             <div class="item_tags">
-              <span class="genre ${item.genre_code}"><a href="?genre=${item.item_genre}">${item.item_genre}</a></span>
+              <span class="genre ${item.genre_code}"><a href="?genre=${item.genre_code}">${genre[item.genre_code]}</a></span>
     `;
 
     // タグ
-    item.tags.forEach(tag => {
+    JSON.parse(item.tags).forEach(tag => {
       html += `<span><a href="?tag=${tag}">${tag}</a></span>`;
     });
 
@@ -58,9 +59,12 @@ function renderNextItems() {
 }
 
 // JSONを読み込んで初期化
-function loadItemList() {
-  // jsonを読み込み
-  fetch('./storage/json/data.json')
+async function loadItemList() {
+  // ジャンル一覧を読み込み
+  await setGenreList();
+
+  // 素材一覧を読み込み
+  fetch('https://opensheet.elk.sh/1bUMcoxQrrlIwkMa8HzkQC7dBaqnCWz9z7pBp3qyckSg/item')
   .then(response => {
     if (!response.ok) {
       throw new Error('JSONの読み込みに失敗しました');
@@ -78,11 +82,11 @@ function loadItemList() {
 
       // ジャンルで絞込み
       if (query[0] == "genre")
-        filtered = data.filter(i => i.item_genre == query[1]);
+        filtered = data.filter(i => i.genre_code == query[1]);
 
       // タグで絞込み
       if (query[0] == "tag")
-        filtered = data.filter(i => i.tags.includes(query[1]));
+        filtered = data.filter(i => JSON.parse(i.tags).includes(query[1]));
     }
 
     // 登録日の降順にソート
@@ -92,17 +96,22 @@ function loadItemList() {
 
     // キーワード、絞込み件数を表示
     if (pre_query) {
-      document.getElementById("current_items").innerHTML = `${query[0]}:${query[1]} (${items.length})`;
+      if (query[0] == "genre") {
+        document.getElementById("current_items").innerHTML = `ジャンル： ${genre[query[1]]} (${items.length})`;
+
+      } else {
+
+        document.getElementById("current_items").innerHTML = `タグ： ${query[1]} (${items.length})`;
+      }
+
     } else {
-      document.getElementById("current_items").innerHTML = `All Works (${items.length})`;
+
+      document.getElementById("current_items").innerHTML = `すべて (${items.length})`;
     }
 
-    // 描画
+    // 素材一覧を描画
     renderNextItems();
     setupObserver();
-
-    // ジャンル一覧
-    setGenreList();
 
     // ドロップダウンメニューを設定
     setDropdownMenu();
@@ -132,9 +141,9 @@ function setupObserver() {
 }
 
 // ジャンル一覧を描画
-function setGenreList() {
+async function setGenreList() {
   // JSONを読み込み
-  fetch('./storage/json/genre.json')
+  await fetch('https://opensheet.elk.sh/1bUMcoxQrrlIwkMa8HzkQC7dBaqnCWz9z7pBp3qyckSg/genre')
   .then(response => {
     if (!response.ok) {
       throw new Error('JSONの読み込みに失敗しました');
@@ -142,6 +151,9 @@ function setGenreList() {
     return response.json();
   })
   .then(data => {
+    // ジャンル一覧を連想配列に追加
+    data.forEach(item => { genre[item.id] = item.name });
+
     // HTMLを組み立て
     let html = `
       <div id="genre_list" class="genre_list">
@@ -151,7 +163,7 @@ function setGenreList() {
     `;
     data.forEach(item => {
       html += `
-        <a href="?genre=${item.name}">
+        <a href="?genre=${item.id}">
           <span class="genre ${item.id}">${item.name}</span>
         </a>
       `;
@@ -238,6 +250,13 @@ function setDropdownMenu(){
     if (selectedValue == "oldest") {
       items = items.sort((a, b) =>
         a.post_date.localeCompare(b.post_date)
+      );
+    }
+
+    // 人気順
+    if (selectedValue == "popular") {
+      items = items.sort((a, b) =>
+        b.download_count - a.download_count
       );
     }
 
