@@ -339,6 +339,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(../../images/common/temp.jpg);
+  background-size: 100%;
 }
 
 .item_img_wrap img {

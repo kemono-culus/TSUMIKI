@@ -60,6 +60,9 @@ function renderNextItems() {
 
 // JSONを読み込んで初期化
 async function loadItemList() {
+  // スケルトンローディング
+  skeletonLoading();
+
   // ジャンル一覧を読み込み
   await setGenreList();
 
@@ -177,6 +180,30 @@ async function setGenreList() {
   });
 }
 
+// ロード待ちの間、クリック不可の仮素材を表示
+function skeletonLoading() {
+  const list = document.getElementById("item_list");
+  let html = ``;
+  let unit = `
+    <li>
+      <div style="color: #a9a9a9; letter-spacing: -0.25em;">
+        <div class="item_img_wrap"></div>
+        <h3 class="item_title">■■■■■</h3>
+        <p class="item_comment" style="overflow-wrap: anywhere;color: #a9a9a9;">■■■■■■■■■■■■■■■■■■</p>
+        <div class="item_tags">
+          <span class="genre">■■■■■</span>
+          <span>■■■</span>
+        </div>
+      </div>
+    </li>
+  `;
+
+  for(let i = 0; i < 6; i++) {
+    html += unit;
+  }
+
+  list.innerHTML = html;
+}
 
 
 /**
