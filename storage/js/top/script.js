@@ -159,10 +159,9 @@ async function setGenreList() {
 
     // HTMLを組み立て
     let html = `
-      <div id="genre_list" class="genre_list">
-        <a href="${root}">
-          <span class="genre all">すべて</span>
-        </a>
+      <a href="${root}">
+        <span class="genre all">すべて</span>
+      </a>
     `;
     data.forEach(item => {
       html += `
@@ -171,7 +170,6 @@ async function setGenreList() {
         </a>
       `;
     });
-    html += "</div>";
 
     document.getElementById("genre_list").innerHTML = html;
   })
@@ -182,9 +180,21 @@ async function setGenreList() {
 
 // ロード待ちの間、クリック不可の仮素材を表示
 function skeletonLoading() {
-  const list = document.getElementById("item_list");
-  let html = ``;
-  let unit = `
+  // ジャンル一覧
+  const genre_list = document.getElementById("genre_list");
+  let html = '';
+  let unit = '<span class="genre" style="color:#808080;">■■■</span>';
+
+  for(let i = 0; i < 11; i++) {
+    html += unit;
+  }
+
+  genre_list.innerHTML = html;
+
+  // 素材一覧
+  const item_list = document.getElementById("item_list");
+  html = ``;
+  unit = `
     <li>
       <div style="color: #a9a9a9; letter-spacing: -0.25em;">
         <div class="item_img_wrap"></div>
@@ -202,7 +212,7 @@ function skeletonLoading() {
     html += unit;
   }
 
-  list.innerHTML = html;
+  item_list.innerHTML = html;
 }
 
 
